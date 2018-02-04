@@ -1,0 +1,123 @@
+@font-face{
+   font-family: bigjohn;
+   src: url(fonts/BIGJOHN.otf);
+}
+
+@font-face{
+   font-family: amble;
+   src: url(fonts/Amble-LightCondensed.ttf);
+}
+
+a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+header{
+  position: absolute;
+  top: 0;
+  content: 0;
+  right: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.text1, .text3{
+  font-family: bigjohn;
+}
+.text2, .text4{
+  font-family: amble;
+}
+
+.textwrapp{
+  position: relative;
+  top: 300px;
+}
+.banner{
+  height: 900px;
+  background: url("../img/Gradient.png") no-repeat center;
+  background-size: cover;
+  position:relative;
+
+}
+.wrapper{
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.menu{
+  display: block;
+  padding: 50px 50px;
+}
+.text1{
+  font-size: 48px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.text2{
+  font-size: 22px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.shape {
+  width: 100%;
+}
+.shape img {
+  display: block;
+  margin: 0 auto;
+  padding: 47px;
+}
+.mouse{
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+}
+.mouse img{
+  display: block;
+  margin: 0 auto;
+  padding: 60px;
+}
+.rectangle{
+  height: 500px;
+  background: url(../img/Rectangle.png) no-repeat;
+  background-size: cover;
+}
+.text3{
+  text-align: center;
+  font-size: 30px;
+  padding-top: 110px;
+}
+.rectangle img 
+{
+  display: block;
+  margin: 0 auto;
+  padding-top: 70px; 
+  padding-bottom: 70px;
+}
+.text4{
+  font-size: 22px;
+  text-align: center;
+  color: #1C1C1C;
+}
+.rectangle2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background: url(../img/Rectangle2.png) no-repeat center;
+  background-size: cover;
+}
+.button1{
+  height: 100px;
+  width: 430px;
+  border: 2px solid #FFFFFF;
+}
+.button1 a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 30px;
+  font-family: amble;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

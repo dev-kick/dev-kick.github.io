@@ -1357,7 +1357,7 @@ header#sidebar-header ul.nav-menu .mega-links-4columns ul.sub-menu-columns > li 
 }
 
 .nile-about-section {
-  padding: 100px 0px 100px 0px;
+  padding: 100px 0px 50px 0px;
   background-size: cover;
 }
 
@@ -1464,7 +1464,7 @@ a.action-bottom:hover {
 }
 
 .call-action {
-  padding: 100px 0px;
+  padding: 40px 0px;
   color: #fff;
   font-size: 13px;
 }
@@ -1498,7 +1498,7 @@ a.action-bottom:hover {
   font-size: 25px;
 }
 .section-title .h2 {
-  font-size: 28px;
+  font-size: 20px;
   font-weight: 700;
   font-family: "Open Sans", sans-serif;
   display: inline-block;
@@ -1571,9 +1571,10 @@ a.action-bottom:hover {
 }
 
 .page-title {
-  background-image: url(../../assets/img/page-title.jpg);
+  background-image: url('../../12-5 copy.jpg');
   background-size: cover;
   background-position: center center;
+  height: 650px;
 }
 .page-title h1 {
   text-align: center;
@@ -2120,7 +2121,6 @@ input {
 .h1,
 h1 {
   font-size: 28px;
-  line-height: 32px;
 }
 
 .h2,
@@ -33908,7 +33908,9 @@ form.dark-form ::-ms-input-placeholder {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-
+#logo{
+    display: none !important;
+  }
 @media only screen and (max-width: 991px) {
   .save-date .date {
     font-family: "Dosis";
@@ -33919,14 +33921,17 @@ form.dark-form ::-ms-input-placeholder {
     margin: 10px;
     font-size: 20px;
     text-align: center;
-    color: #fff;
+    color: #fff !important;
     text-decoration: none;
     display: block;
     position: absolute;
     top: 0;
     right: 0;
   }
-
+  #logo{
+    display: block !important;
+    height: 41px;
+  }
   header #menu-main {
     display: none;
   }
@@ -38045,5 +38050,45 @@ form.dark-form ::-ms-input-placeholder {
     margin-bottom: 30px;
   }
 }
+#slide-5-layer-2{
+  text-align: center;
+  font-size: 15px;
+  padding: 0;
+  font-weight: 500;
+  color: rgba(255,255,255,1);
+  background-color:rgb(229,57,53);
+  border: 2px solid rgb(229,57,53);
+  border-radius:30px;
+  cursor:pointer;
+  margin-right: 3px;
+}
+#slide-5-layer-4{
+  text-align: center;
+  padding: 0;
+  font-size: 15px;
+  font-weight: 500;
+  color: rgba(255,255,255,1);
+  background-color:rgba(229,57,53,0);
+  border: 2px solid rgb(255,255,255);
+  border-radius:30px;
+  cursor:pointer;
+  margin-left: 3px;
+}
 
+@media screen and (max-width: 990px){
+  #slide-5-layer-2{
+    margin-right: 0px;
+  }
+  #slide-5-layer-4{
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+}
+
+.header-buttons{
+  margin-top: 20px;
+}
+p{
+  margin: 0;
+}
 /*# sourceMappingURL=style.css.map */

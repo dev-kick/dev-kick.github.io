@@ -26,7 +26,7 @@
 	<!-- flag icon -->
 	<link rel="stylesheet" href="assets/css/flag-icon.min.css">
 	<!-- main style -->
-	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/style.css?v=1">
 	<!-- elegant icon -->
 	<link rel="stylesheet" href="assets/css/elegant_icon.css">
 	<!-- fontawesome  -->
@@ -38,7 +38,6 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 	<script src="assets/js/jquery-3.2.1.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-
 </head>
 
 <body>
@@ -46,9 +45,14 @@
 
 
 		<div class="background-main-color header-output" id="fixed-header-dark" clearfix">
-			<div class="container">
+			<div class="header-output">
+			<div class="container header-in">
 				<div class="position-relative">
 					<div class="row">
+						<div class="col-lg-3 col-md-12">
+							<a id="logo" class="d-inline-block margin-tb-15px"></a>
+								<a class="mobile-toggle padding-15px background-second-color border-radius-3"><i class="fa fa-bars"></i></a>
+							</div>
 						<div class="col-lg-10 position-inherit">
 							<ul id="menu-main" class="nav-menu float-lg-left text-lg-left link-padding-tb-16px white-link dropdown-dark">
 								<li><a href="#AboutUs">О комплексе</a>
@@ -61,19 +65,19 @@
 								</li>
 								<li><a href="#5">Как добраться</a>
 								</li>
-
 							</ul>
 						</div>
 
 						<div class="col-lg-2 col-md-12  d-none d-lg-block">
 							<a data-toggle="modal" data-target=".bd-example-modal-lg" href="#" class="btn btn-sm border-radius-30 margin-tb-12px text-white  background-dark  box-shadow float-right padding-lr-20px margin-left-30px d-block">
-                          <i class="fa fa-envelope-o"></i>  Get A Quote
+                          <i class="fa fa-envelope-o"></i>  Задать вопрос
                         </a>
 						</div>
 
 					</div>
 				</div>
 			</div>
+		</div>
 		</div>
 
 
@@ -86,32 +90,23 @@
 		<div class="modal-dialog modal-lg">
 			<div class="modal-content margin-top-150px background-main-color">
 				<div class="row no-gutters">
-					<div class="col-lg-5">
-						<img src="http://placehold.it/405x605" alt="">
-					</div>
-					<div class="col-lg-7">
+					<div class="col-lg-12">
 						<div class="padding-30px">
-							<h3 class="padding-bottom-15px">Get A Free Quote</h3>
+							<h3 class="padding-bottom-15px">Задать вопрос</h3>
 							<form>
 								<div class="form-row">
 									<div class="form-group col-md-6">
-										<label>Full Name</label>
-										<input type="text" class="form-control" id="inputName4" placeholder="Name">
+										<input type="text" class="form-control" id="inputName4" placeholder="Имя">
 									</div>
 									<div class="form-group col-md-6">
-										<label>Email</label>
-										<input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+										<input type="phone" class="form-control" id="inputEmail4" placeholder="Номер телефона">
 									</div>
 								</div>
 								<div class="form-group">
-									<label>Address</label>
-									<input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-								</div>
-								<div class="form-group">
-									<label>Message</label>
+									<label>Сообщение</label>
 									<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 								</div>
-								<a href="#" class="btn-sm btn-lg btn-block background-dark text-white text-center  text-uppercase rounded-0 padding-15px">SEND MESSAGE</a>
+								<a href="#" class="btn-sm btn-lg btn-block background-dark text-white text-center  text-uppercase rounded-0 padding-15px">Отправить</a>
 							</form>
 						</div>
 					</div>
@@ -122,56 +117,67 @@
 	<!-- // Get A Quote  -->
 
 
+	<div class="page-title">
+		<div class="container h-100">
+			<div class="row align-items-center h-100">
+			<div class="align-self-center col-12">
+				<h1>Квартира в центре с отделкой + место на подземной парковке = ваша выгода до 700 000 рублей.</h1>
+					<div class="row d-flex justify-content-center header-buttons">
+						<a href="#4" class="tp-caption rev-btn col-lg-2 col-sm-7" id="slide-5-layer-2">Свяжитесь с нами!</a>
+						<a class="tp-caption rev-btn col-lg-2 col-sm-7" id="slide-5-layer-4">Читать подробней...</a>
+					</div>
+					
+			</div>
+			</div>
+		</div>
+	</div>
 
-
-	<div id="rev_slider_4_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="logistics-2" data-source="gallery" style="margin:0px auto;background:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
-		<!-- START REVOLUTION SLIDER 5.4.8 fullwidth mode -->
+	<!-- <div id="rev_slider_4_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="logistics-2" data-source="gallery" style="margin:0px auto;background:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
+		
 		<div id="rev_slider_4_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.4.8">
 			<ul>
-				<!-- SLIDE  -->
+				
 				<li data-index="rs-5" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-					<!-- MAIN IMAGE -->
-					<img src="http://placehold.it/1920x680" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-					<!-- LAYERS -->
+					
+					<img src="12-5 copy.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+					
 
-					<!-- LAYER NR. 1 -->
-					<div class="tp-caption   tp-resizeme" id="slide-5-layer-1" data-x="['right','right','center','center']" data-hoffset="['0','41','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-111','-138','-147','-128']" data-fontsize="['50','50','50','45']" data-width="['461','461','462','462']" data-height="['173','173','none','none']" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":10,"speed":1140,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['inherit','inherit','inherit','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; min-width: 461px; max-width: 461px; max-width: 173px; max-width: 173px; white-space: nowrap; font-size: 50px; line-height: 59px; font-weight: 400; color: #ffffff; letter-spacing: -4px;font-family:Poppins;">Cargo Transportation </div>
+					
+					<div class="tp-caption   tp-resizeme" id="slide-5-layer-1" data-x="['middle','middle','middle','middle']" data-hoffset="['0','41','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-111','-138','-147','-128']" data-fontsize="['30','30','30','30']"  data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":10,"speed":1140,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5;  white-space: nowrap; font-size: 30px; line-height: 59px; font-weight: bold; color: #ffffff; font-family:"Open Sans";"> <h1>Квартира в центре с отделкой + место на подземной парковке = ваша <br> выгода до 700 000 рублей.</h1></div>
 
-					<!-- LAYER NR. 2 -->
-					<div class="tp-caption   tp-resizeme" id="slide-5-layer-3" data-x="['right','right','center','center']" data-hoffset="['0','43','0','1']" data-y="['top','top','top','top']" data-voffset="['235','210','242','244']" data-width="['458','458','458','362']" data-height="['none','none','none','71']" data-whitespace="normal" data-type="text" data-responsive_offset="on" data-frames='[{"delay":260,"speed":1110,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['right','right','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6; min-width: 458px; max-width: 458px; white-space: normal; font-size: 15px; line-height: 23px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Poppins;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
-
-					<!-- LAYER NR. 3 -->
+					
 					<div class="tp-caption rev-btn " id="slide-5-layer-2" data-x="['right','right','left','center']" data-hoffset="['2','39','402','99']" data-y="['top','top','top','top']" data-voffset="['319','305','338','329']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-responsive_offset="on" data-responsive="off" data-frames='[{"delay":630,"speed":1120,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);bg:transparent;bc:rgb(255,255,255);"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[12,12,12,12]" data-paddingright="[35,35,35,35]" data-paddingbottom="[12,12,12,12]" data-paddingleft="[35,35,35,35]" style="z-index: 7; white-space: nowrap; font-size: 14px; line-height: 17px; font-weight: 500; color: rgba(255,255,255,1); letter-spacing: 0px;font-family:Poppins;background-color:rgb(229,57,53);border-color:rgb(229,57,53);border-style:solid;border-width:2px 2px 2px 2px;border-radius:30px 30px 30px 30px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">Contact Us </div>
 
-					<!-- LAYER NR. 4 -->
+					
 					<div class="tp-caption rev-btn " id="slide-5-layer-4" data-x="['right','right','left','center']" data-hoffset="['183','219','223','-74']" data-y="['top','top','top','top']" data-voffset="['320','307','336','329']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-responsive_offset="on" data-responsive="off" data-frames='[{"delay":860,"speed":1120,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);bg:transparent;"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[12,12,12,12]" data-paddingright="[35,35,35,35]" data-paddingbottom="[12,12,12,12]" data-paddingleft="[35,35,35,35]" style="z-index: 8; white-space: nowrap; font-size: 14px; line-height: 17px; font-weight: 500; color: rgba(255,255,255,1); letter-spacing: 0px;font-family:Poppins;background-color:rgba(229,57,53,0);border-color:rgb(255,255,255);border-style:solid;border-width:2px 2px 2px 2px;border-radius:30px 30px 30px 30px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">Read More </div>
 				</li>
-				<!-- SLIDE  -->
-				<li data-index="rs-7" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-					<!-- MAIN IMAGE -->
-					<img src="http://placehold.it/1920x680" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
-					<!-- LAYERS -->
+				
+				 <li data-index="rs-7" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+					
+					<img src="12-5.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+					
 
-					<!-- LAYER NR. 5 -->
+					
 					<div class="tp-caption   tp-resizeme" id="slide-7-layer-1" data-x="['left','left','center','center']" data-hoffset="['0','41','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-169','-138','-147','-128']" data-fontsize="['50','50','50','45']" data-width="462" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="on" data-frames='[{"delay":10,"speed":1140,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['inherit','inherit','inherit','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; min-width: 462px; max-width: 462px; white-space: nowrap; font-size: 50px; line-height: 59px; font-weight: 400; color: #ffffff; letter-spacing: -4px;font-family:Poppins;">Railroad Transportation </div>
 
-					<!-- LAYER NR. 6 -->
+					
 					<div class="tp-caption   tp-resizeme" id="slide-7-layer-3" data-x="['left','left','center','center']" data-hoffset="['0','42','0','1']" data-y="['top','top','top','top']" data-voffset="['235','258','242','244']" data-width="['458','458','458','362']" data-height="['none','none','none','71']" data-whitespace="normal" data-type="text" data-responsive_offset="on" data-frames='[{"delay":260,"speed":1110,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-textAlign="['left','left','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6; min-width: 458px; max-width: 458px; white-space: normal; font-size: 15px; line-height: 23px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Poppins;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
 
-					<!-- LAYER NR. 7 -->
+					
 					<div class="tp-caption rev-btn " id="slide-7-layer-2" data-x="['right','right','left','center']" data-hoffset="['776','451','402','99']" data-y="['top','top','top','top']" data-voffset="['320','342','338','329']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-responsive_offset="on" data-responsive="off" data-frames='[{"delay":630,"speed":1120,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);bg:transparent;bc:rgb(255,255,255);"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[12,12,12,12]" data-paddingright="[35,35,35,35]" data-paddingbottom="[12,12,12,12]" data-paddingleft="[35,35,35,35]" style="z-index: 7; white-space: nowrap; font-size: 14px; line-height: 17px; font-weight: 500; color: rgba(255,255,255,1); letter-spacing: 0px;font-family:Poppins;background-color:rgb(229,57,53);border-color:rgb(229,57,53);border-style:solid;border-width:2px 2px 2px 2px;border-radius:30px 30px 30px 30px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">Contact Us </div>
 
-					<!-- LAYER NR. 8 -->
+					
 					<div class="tp-caption rev-btn " id="slide-7-layer-4" data-x="['left','left','left','center']" data-hoffset="['0','42','223','-74']" data-y="['top','top','top','top']" data-voffset="['320','343','336','329']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="button" data-responsive_offset="on" data-responsive="off" data-frames='[{"delay":860,"speed":1120,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);bg:transparent;"}]' data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[12,12,12,12]" data-paddingright="[35,35,35,35]" data-paddingbottom="[12,12,12,12]" data-paddingleft="[35,35,35,35]" style="z-index: 8; white-space: nowrap; font-size: 14px; line-height: 17px; font-weight: 500; color: rgba(255,255,255,1); letter-spacing: 0px;font-family:Poppins;background-color:rgba(229,57,53,0);border-color:rgb(255,255,255);border-style:solid;border-width:2px 2px 2px 2px;border-radius:30px 30px 30px 30px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">Read More </div>
-				</li>
+				</li> 
+
 			</ul>
 			<div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
 		</div>
-	</div>
+	</div> -->
 	<!-- END REVOLUTION SLIDER -->
 
 	<!--============= About Us =============-->
-	<div class="nile-about-section" id="AboutUs">
+	<div class="section nile-about-section section-ba-2" id="AboutUs">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 sm-mb-45px">
@@ -180,7 +186,7 @@
 						<h2 class="title-text">О комплексе</h2>
 					</div>
 					
-						<img src="http://placehold.it/650x320" style="float: right;" alt=""> <p>Комплекс имеет хорошую транспортную доступность, что позволяет быстро добираться
+<p>Комплекс имеет хорошую транспортную доступность, что позволяет быстро добираться
 	практически до любой точки города.</p>
 <p>ЖК Калейдоскоп - это дома разной этажности и уровня комфорта.</p>
 <p>Стандартный сегмент представлен панельными домами 97 серии, давно зарекомендовавшими себя как недорогое и качественное жильё.</p>
@@ -205,8 +211,82 @@
 
 
 
+	<div id="2" class="section padding-tb-100px section-ba-1">
+		<div class="container">
+			<!-- Title -->
+			<div class="section-title margin-bottom-40px">
+				<div class="row justify-content-center">
+					<div class="col-lg-7">
+						<div class="h2">Планировки</div>
+					</div>
+				</div>
+			</div>
+			<!-- // End Title -->
 
-	<div class="call-action ba-1">
+			<div class="container">
+				<div class="row">
+
+					<!-- partners item -->
+					<div class="col-lg-4 col-md-12 col-sm-12">
+						<a data-fancybox="gallery" href="assets/img/layouts/47_kv_m.png">
+						<div class="partners-item margin-bottom-tb-15px text-center sm-mb-30px">
+							<img style="height: 390px;" src="assets/img/layouts/47_kv_m.png" alt="">
+							<p>1- комнатная квартира 47 м²</p>
+						</div>
+						</a>
+					</div>
+					<!--//  partners item -->
+
+
+					<!-- partners item -->
+					<div class="col-lg-4 col-md-12 col-sm-12">
+						<a data-fancybox="gallery-2" href="assets/img/layouts/67_kv_m.png">
+							<div class="partners-item margin-bottom-tb-15px text-center sm-mb-30px">
+								<img style="height: 390px;" src="assets/img/layouts/67_kv_m.png" alt="">
+								<p>2-х комнатная квартира 67 м²</p>
+							</div>
+						</a>
+						<a data-fancybox="gallery-2" href="assets/img/layouts/67_kv_m_razdelny_tualet.png"></a>
+					</div>
+					<!--//  partners item -->
+
+
+					<!-- partners item -->
+					<div class="col-lg-4 col-md-12 col-xs-12 col-sm-12">
+						<a data-fancybox="gallery-3" href="assets/img/layouts/72_kv_m.png">
+						<div class="partners-item margin-bottom-tb-15px text-center sm-mb-30px">
+							<img style="height: 390px;" src="assets/img/layouts/72_kv_m.png" alt="">
+							<p>2-х комнатная квартира 72 м²</p>
+						</div>
+						</a>
+						<a data-fancybox="gallery-3" href="assets/img/layouts/72_kv_m_pravaya.png"></a>
+					</div>
+					<!--//  partners item -->
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+<div id="3" class="section padding-tb-100px section-ba-2">
+		<div class="container">
+			<!-- Title -->
+			<div class="section-title margin-bottom-40px">
+				<div class="row justify-content-center">
+					<div class="col-lg-7">
+						<div class="h2">Калькулятор ипотеки</div>
+					</div>
+				</div>
+			</div>
+			<!-- // End Title -->
+				<div class="uCalc_194295"></div><script> var widgetOptions194295 = { bg_color: "transparent" }; (function() { var a = document.createElement("script"), h = "head"; a.async = true; a.src = (document.location.protocol == "https:" ? "https:" : "http:") + "//ucalc.pro/api/widget.js?id=194295&t="+Math.floor(new Date()/18e5); document.getElementsByTagName(h)[0].appendChild(a) })();</script>
+
+		
+	</div>
+</div>
+
+<div class="call-action ba-1">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-7">
@@ -227,79 +307,7 @@
 		</div>
 	</div>
 
-
-
-	<div id="2" class="section padding-tb-100px section-ba-1">
-		<div class="container">
-			<!-- Title -->
-			<div class="section-title margin-bottom-40px">
-				<div class="row justify-content-center">
-					<div class="col-lg-7">
-						<div class="h2">Планировки</div>
-					</div>
-				</div>
-			</div>
-			<!-- // End Title -->
-
-			<div class="container">
-				<div class="row">
-
-					<!-- partners item -->
-					<div class="col-lg-4 col-md-3 col-sm-6">
-						<a data-fancybox="gallery" href="assets/img/layouts/47_kv_m.png">
-						<div class="partners-item margin-bottom-tb-15px text-center sm-mb-30px">
-							<img style="height: 390px;" src="assets/img/layouts/47_kv_m.png" alt="">
-							<p>1- комнатная квартира 47 м²</p>
-						</div>
-						</a>
-					</div>
-					<!--//  partners item -->
-
-
-					<!-- partners item -->
-					<div class="col-lg-4 col-md-3 col-sm-6">
-						<a data-fancybox="gallery-2" href="assets/img/layouts/67_kv_m.png">
-							<div class="partners-item margin-bottom-tb-15px text-center sm-mb-30px">
-								<img style="height: 390px;" src="assets/img/layouts/67_kv_m.png" alt="">
-								<p>2-х комнатная квартира 67 м²</p>
-							</div>
-						</a>
-						<a data-fancybox="gallery-2" href="assets/img/layouts/67_kv_m_razdelny_tualet.png"></a>
-					</div>
-					<!--//  partners item -->
-
-
-					<!-- partners item -->
-					<div class="col-lg-4 col-md-3 col-sm-6">
-						<a data-fancybox="gallery-3" href="assets/img/layouts/72_kv_m.png">
-						<div class="partners-item margin-bottom-tb-15px text-center sm-mb-30px">
-							<img style="height: 390px;" src="assets/img/layouts/72_kv_m.png" alt="">
-							<p>2-х комнатная квартира 72 м²</p>
-						</div>
-						</a>
-						<a data-fancybox="gallery-3" href="assets/img/layouts/72_kv_m_pravaya.png"></a>
-					</div>
-					<!--//  partners item -->
-					
-				</div>
-			</div>
-		</div>
-	</div>
-
-
-<div id="3" class="section padding-tb-100px section-ba-2">
-		<div class="container">
-
-				
-				<div class="uCalc_194295"></div><script> var widgetOptions194295 = { bg_color: "transparent" }; (function() { var a = document.createElement("script"), h = "head"; a.async = true; a.src = (document.location.protocol == "https:" ? "https:" : "http:") + "//ucalc.pro/api/widget.js?id=194295&t="+Math.floor(new Date()/18e5); document.getElementsByTagName(h)[0].appendChild(a) })();</script>
-
-		
-	</div>
-</div>
-
-
-
-	<div id="4" class="section padding-tb-100px section-ba-1">
+	<div id="4" class="section padding-tb-100px">
 		<div class="container">
 			<!-- Title -->
 			<div class="section-title margin-bottom-40px">

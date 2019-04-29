@@ -64,14 +64,13 @@ if (alertwin != "no") {
     $(document).mouseleave(function(e){
         if (e.clientY < 0) {
         	writeCookie(); 
-            $.fancybox.open( $('.exitblock'), {});
+        	$('.exitblock').addClass('visible');
+            $.fancybox.open( $('.exitblock'), {
+            	afterClose: function(){$(".exitblock").remove();}
+            });
+
 // Устанавливаем куку когда посетитель увидел окно, даже если не прошло 15 секунд
         }    
-    });
-    $(document).click(function(e) {
-        if (($(".exitblock").is(':visible')) && (!$(e.target).closest(".exitblock .modaltext").length)) {
-            $(".exitblock").remove();
-        }
     });  
 }
 	</script>

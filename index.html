@@ -46,20 +46,17 @@
     return matches ? decodeURIComponent(matches[1]) : undefined;
 }
 function writeCookie() {
-// функция записывает cookie на 1 день, с которой мы не показываем окно
     var date = new Date;
     date.setDate(date.getDate() + 1);    
     document.cookie = "alertwin=no; path=/; expires=" + date.toUTCString();        
 }    
-// проверяем, есть ли у нас cookie, с которой мы не показываем окно и если нет, запускаем показ
 var alertwin = getCookie("alertwin");
 if (alertwin != "no") {
-    window.setTimeout(function() { // запускаем таймер на 15 секунд
-        if ($(".exitblock").is(':hidden')) { // если блок не показывается, то убираем его навсегда
+    window.setTimeout(function() {
+        if ($(".exitblock").is(':hidden')) {
             $(".exitblock").remove();     
         }
         writeCookie(); 
-// Устанавливаем куку через 15 секунд, видел ли или нет посетитель всплывающее окно
     }, 180000);        
     $(document).mouseleave(function(e){
         if (e.clientY < 0) {
@@ -68,8 +65,6 @@ if (alertwin != "no") {
             $.fancybox.open( $('.exitblock'), {
             	afterClose: function(){$(".exitblock").remove();}
             });
-
-// Устанавливаем куку когда посетитель увидел окно, даже если не прошло 15 секунд
         }    
     });  
 }
@@ -444,7 +439,7 @@ if (alertwin != "no") {
 
 	<div id="trueModal" style="display: none;" class="animated-modal p-5 fancybox-content">
         <h2>
-            I'm a modal!
+            Модальное окно с информацие.
         </h2>
         <p>
             You can close me only by pressing custom button below.
@@ -458,7 +453,7 @@ if (alertwin != "no") {
 
     <div id="exitblock" style="display: none;" class="exitblock animated-modal p-5 fancybox-content">
         <h2>
-            I'm a modal!
+            Модальное окно при закрытии вкладки.
         </h2>
         <p>
             You can close me only by pressing custom button below.

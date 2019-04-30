@@ -1571,7 +1571,7 @@ a.action-bottom:hover {
 }
 
 .page-title {
-  background-image: url('../../12-5 copy.jpg');
+  background-image: url('../img/header-background.jpg');
   background-size: cover;
   background-position: center center;
   height: 650px;

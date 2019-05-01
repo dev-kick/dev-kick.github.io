@@ -38101,7 +38101,20 @@ p{
     text-align: center !important;
   }
 }
+@media only screen and (max-width: 413px){
+  .page-title h1{
+    font-size: 30px;
+  }
+}
 .fotorama--fullscreen .fotorama__nav, .fotorama--fullscreen .fotorama__stage {
     background: #fff !important;
+}
+.kv_modal{
+  background-color: #fff; 
+  display: none;
+  text-align: center;
+}
+.modal{
+  z-index: 9999999 !important;
 }
 /*# sourceMappingURL=style.css.map */

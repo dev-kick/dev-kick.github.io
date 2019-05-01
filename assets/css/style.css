@@ -38101,4 +38101,7 @@ p{
     text-align: center !important;
   }
 }
+.fotorama--fullscreen .fotorama__nav, .fotorama--fullscreen .fotorama__stage {
+    background: #fff !important;
+}
 /*# sourceMappingURL=style.css.map */

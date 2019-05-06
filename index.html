@@ -62,9 +62,12 @@ if (alertwin != "no") {
     $(document).mouseleave(function(e){
         if (e.clientY < 0) {
         	writeCookie(); 
-        	$('.exitblock').addClass('visible');
-            $.fancybox.open( $('.exitblock'), {
-            });
+        	if ($('.exitblock').css('display') == 'none') {
+        		$('.exitblock').addClass('visible');
+            	$.fancybox.open( $('.exitblock'), {
+            	});
+        	} 
+        	
         }    
     });  
 }
@@ -91,7 +94,7 @@ if (alertwin != "no") {
 								</li>
 								<li><a href="#3">Калькулятор ипотеки</a>
 								</li>
-								<li><a href="#5">Обратная связь</a>
+								<li><a href="#4">Обратная связь</a>
 								</li>
 								<li><a href="#6">Как добраться</a>
 								</li>
@@ -181,7 +184,7 @@ if (alertwin != "no") {
 			<div class="align-self-center col-12">
 				<h1>ЖК Калейдоскоп <br> Квартира в центре с отделкой + место на подземной парковке = ваша выгода до 700 000 рублей.</h1>
 					<div class="row d-flex justify-content-center header-buttons">
-						<a href="#4" class="tp-caption rev-btn col-lg-2 col-sm-7" id="slide-5-layer-2">Свяжитесь с нами!</a>
+						<a href="#8" class="tp-caption rev-btn col-lg-2 col-sm-7" id="slide-5-layer-2">Получить выгоду</a>
 						<a data-src="#trueModal" data-fancybox data-animation-duration="500" href="#trueModal" class="tp-caption rev-btn col-lg-2 col-sm-7" id="slide-5-layer-4">Читать подробней...</a>
 					</div>
 					
@@ -316,6 +319,7 @@ if (alertwin != "no") {
 								<div class="fotorama" data-loop="true" data-allowfullscreen="true" data-width="600">
 									<img src="assets/img/layouts/67_kv_m.png" alt="">
 									<img src="assets/img/layouts/67_kv_m_razdelny_tualet.png" alt="">
+									<img src="assets/img/layouts/67_kv_m_render.png" alt="">
 									<img src="assets/img/layouts/kv-na-etazhah.png" alt="">
 								</div>
 								<a data-toggle="modal" data-target=".collbackmodal" href="#" class="btn fnacyclose btn-sm border-radius-30 text-white  background-dark  box-shadow  padding-lr-20px d-block">Забронировать</a>
@@ -325,7 +329,7 @@ if (alertwin != "no") {
 
 					<!-- partners item -->
 					<div class="col-lg-4 col-md-12 col-xs-12 col-sm-12 margin-bottom-10px">
-						<a data-src="#67_kv" data-fancybox href="#72_kv">
+						<a data-src="#72_kv" data-fancybox href="#72_kv">
 						<div class="partners-item margin-bottom-tb-15px text-center sm-mb-30px">
 							<img style="height: 390px;" src="assets/img/layouts/72_kv_m.png" alt="">
 							<p>2-х комнатная квартира 72 м²</p>
@@ -352,7 +356,7 @@ if (alertwin != "no") {
 		</div>
 	</div>
 
-<div id="4" class="section padding-tb-100px section-ba-1">
+<div id="8" class="section padding-tb-100px section-ba-1">
 		<div class="container">
 			<!-- Title -->
 			<div class="section-title margin-bottom-40px">
@@ -530,7 +534,7 @@ if (alertwin != "no") {
 		</div>
 	</div>
 
-	<div id="5" class="section padding-tb-100px section-ba-2">
+	<div id="4" class="section padding-tb-100px section-ba-2">
 		<div class="container">
 			<!-- Title -->
 			<div class="section-title margin-bottom-40px">
@@ -645,25 +649,13 @@ if (alertwin != "no") {
 Парковочное место на подземной парковке: 400 000 рублей вместо 800 000 рублей.</p>
     </div>
 
-    <div id="exitblock" style="display: none;" class="exitblock animated-modal p-5 fancybox-content">
-        <h2>
-            Отсались вопросы?
-        </h2>
-        <p>Оставьте ваши контактные данные и мы с вами свяжемся!</p>
-        <br>
-        <form>
-								<div class="form-row">
-									<div class="form-group col-md-6">
-										<label>Имя</label>
-										<input type="text" class="form-control" id="inputName4" placeholder="Имя">
-									</div>
-									<div class="form-group col-md-6">
-										<label>Номер телефона</label>
-										<input type="phone" class="form-control" id="inputEmail4" placeholder="Номер телефона">
-									</div>
-								</div>
-								<a href="#" class="btn-sm btn-lg btn-block background-dark text-white text-center  text-uppercase rounded-0 padding-15px">Отправить</a>
-							</form>
+    <div id="exitblock" style="display: none;" class="exitblock animated-modal p-5 fancybox-content text-center">
+        <h3 class="margin-bottom-0px">
+            Жаль, что Вы уходите... Мы решили подарить Вам дополнительную скидку <br> в 50 000 рублей на покупку квартиры.
+        </h3>
+        <p>Забрать подарок просто! Жмите на кнопку и напишите ключевое слово "ПОДАРОК". </p>
+        <a href="https://vk.com/im?sel=-165248948" target="_blanck" class="btn margin-top-10px fnacyclose btn-sm border-radius-30 text-white  background-dark  box-shadow  padding-lr-20px">Забрать подарок</a>
+        
     </div>
 	<!-- REVOLUTION JS FILES -->
 	<script src="assets/js/nile-slider.js"></script>
@@ -697,6 +689,13 @@ if (alertwin != "no") {
         });
     });
 	</script>
+	<script type="text/javascript" src="https://vk.com/js/api/openapi.js?160"></script> 
+
+<!— VK Widget —> 
+<div id="vk_community_messages"></div> 
+<script type="text/javascript"> 
+VK.Widgets.CommunityMessages("vk_community_messages", 165248948, {expanded: "1",tooltipButtonText: "Ответим на Ваш вопрос прямо сейчас!"}); 
+</script>
 </body>
 
 </html>

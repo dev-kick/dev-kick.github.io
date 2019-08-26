@@ -2,7 +2,7 @@
 <html lang="en-US">
 
 <head>
-	<title>Жилой комплекс Леонардо</title>
+	<title>Nile - Transportation and Logistics Responsive HTML5 Template</title>
 	<meta name="author" content="Nile-Theme">
 	<meta name="robots" content="index follow">
 	<meta name="googlebot" content="index follow">
@@ -17,8 +17,6 @@
 	<!-- owl Carousel assets -->
 	<link href="assets/css/owl.carousel.css" rel="stylesheet">
 	<link href="assets/css/owl.theme.css" rel="stylesheet">
-	<!-- google fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800%7CPoppins:300i,300,400,500,600,700,400i,500%7CDancing+Script:700%7CDancing+Script:700%7CGreat+Vibes:400%7CPoppins:400%7CDosis:800%7CRaleway:400,700,800&amp;subset=latin-ext" rel="stylesheet">
 	<!-- bootstrap -->
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<!-- hover anmation -->
@@ -26,7 +24,7 @@
 	<!-- flag icon -->
 	<link rel="stylesheet" href="assets/css/flag-icon.min.css">
 	<!-- main style -->
-	<link rel="stylesheet" href="assets/css/style.css?v=1">
+	<link rel="stylesheet" href="assets/css/style.css">
 	<!-- elegant icon -->
 	<link rel="stylesheet" href="assets/css/elegant_icon.css">
 	<!-- fontawesome  -->
@@ -35,111 +33,152 @@
 	<link rel="stylesheet" type="text/css" href="assets/rslider/fonts/font-awesome/css/font-awesome.css">
 	<!-- REVOLUTION STYLE SHEETS -->
 	<link rel="stylesheet" type="text/css" href="assets/rslider/css/settings.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-	<script src="assets/js/jquery-3.2.1.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-	<link  href="assets/css/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
-	<script>
-		function getCookie(name) {
-    var matches = document.cookie.match(new RegExp(
-    "(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
-    ));
-    return matches ? decodeURIComponent(matches[1]) : undefined;
-}
-function writeCookie() {
-    var date = new Date;
-    date.setDate(date.getDate() + 1);    
-    document.cookie = "alertwin=no; path=/; expires=" + date.toUTCString();        
-}    
-var alertwin = getCookie("alertwin");
-if (alertwin != "no") {
-    window.setTimeout(function() {
-        if ($(".exitblock").is(':hidden')) {
-            $(".exitblock").remove();     
-        }
-        writeCookie(); 
-    }, 180000);        
-    $(document).mouseleave(function(e){
-        if (e.clientY < 0) {
-        	writeCookie(); 
-        	if ($('.exitblock').css('display') == 'none') {
-        		$('.exitblock').addClass('visible');
-            	$.fancybox.open( $('.exitblock'), {
-            	});
-        	} 
-        	
-        }    
-    });  
-}
-	</script>
+
 </head>
 
 <body>
-	<header>
-
-		<div class="background-main-color header-output" id="fixed-header-dark" clearfix">
+	<!--  Header  -->
+	<header class="background-white">
+		<div class="header-output">
 			<div class="header-output">
-			<div class="container header-in">
-				<div class="position-relative">
-					<div class="row">
-						<div class="col-lg-3 col-md-12">
-							<a id="logo" class="d-inline-block margin-tb-15px"></a>
-								<a class="mobile-toggle padding-15px background-second-color border-radius-3"><i class="fa fa-bars"></i></a>
-							</div>
-						<div class="col-lg-10 position-inherit">
-							<ul id="menu-main" class="nav-menu float-lg-left text-lg-left link-padding-tb-16px white-link dropdown-dark">
-								<li><a href="#AboutUs">О комплексе</a>
-								</li>
-								<li><a href="#2">Планировки</a>
-								</li>
-								<li><a href="#3">Калькулятор ипотеки</a>
-								</li>
-								<li><a href="#4">Обратная связь</a>
-								</li>
-								<li><a href="#6">Как добраться</a>
-								</li>
-							</ul>
-						</div>
+				<div class="header-in">
+					<div class="container">
+						<div class="position-relative">
+							<div class="row">
+								<div class="col-lg-10 col-md-12 position-inherit">
+									<ul id="menu-main" class="nav-menu float-xl-left text-lg-center link-padding-tb-25px dropdown-dark">
+										<li class="has-dropdown"><a href="#">Home</a>
+											<ul class="sub-menu">
+												<li><a href="home-1.html">Home - Main Demo</a></li>
+												<li><a href="home-2.html">Home - Classic Layout</a></li>
+												<li><a href="home-3.html">Home - Modern Layout</a></li>
+												<li><a href="home-4.html">Home - Marine Transport</a></li>
+												<li><a href="home-5.html">Home - Moving Co</a></li>
+												<li><a href="home-6.html">Home - Company</a></li>
+											</ul>
+										</li>
+										<li class="has-dropdown"><a href="#">About</a>
+											<ul class="sub-menu">
+												<li><a href="page-about-us.html">About Us</a></li>
+												<li><a href="page-faqs.html">Faqs</a></li>
+												<li><a href="page-out-team.html">Our Team</a></li>
+												<li><a href="page-price-table.html">Price Table</a></li>
+												<li><a href="page-contact-us.html">Contact Us</a></li>
+												<li><a href="page-our-partners.html">Our Partners</a></li>
+											</ul>
+										</li>
+										<li class="has-dropdown"><a href="#">Services</a>
+											<ul class="sub-menu">
+												<li><a href="service-single.html">Cargo Transportation</a></li>
+												<li><a href="service-single.html">Air Freight</a></li>
+												<li><a href="service-single.html">Ocean Freight</a></li>
+												<li><a href="service-single.html">Packaging and Storage</a></li>
+												<li><a href="service-single.html">Fast Delivery</a></li>
+												<li><a href="service-single.html">Railroad Transportation</a></li>
+											</ul>
+										</li>
+										<li class="has-dropdown"><a href="#">Blog</a>
+											<ul class="sub-menu">
+												<li><a href="blog-left-sidebar.html">Blog Left Sidebar </a></li>
+												<li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
+												<li><a href="blog-no-sidebar.html">Blog No Sidebar</a></li>
+												<li><a href="blog-single.html">Post Detalis</a></li>
+											</ul>
+										</li>
+										<li class="mega-menu mega-links mega-links-4columns"><a href="#">Elements</a>
+											<div class="mega-menu-out sub-menu-out">
+												<ul class="sub-menu-columns">
+													<li>
+														<a href="#">Default Elements</a>
+														<ul class="mega-menu-list">
+															<li><a href="elements-accordions.html">accordions</a></li>
+															<li><a href="elements-action-box.html">Call To Action</a></li>
+															<li><a href="elements-alert-messages.html">alert messages</a></li>
+															<li><a href="elements-icon-box.html">Icon Box</a></li>
+															<li><a href="elements-blog-post.html">blog post</a></li>
+														</ul>
+													</li>
+													<li>
+														<a href="#">Interactive Elements</a>
+														<ul class="mega-menu-list">
+															<li><a href="elements-clients.html">clients</a></li>
+															<li><a href="elements-columns-grids.html">columns grids</a></li>
+															<li><a href="elements-counters.html">counters</a></li>
+															<li><a href="elements-testimonial.html">Testimonial</a></li>
+															<li><a href="elements-price-table.html">Price Table</a></li>
+														</ul>
+													</li>
+													<li>
+														<a href="#">Shop Pages</a>
+														<ul class="mega-menu-list">
+															<li><a href="shop-2-columns.html">Shop 2 Columns</a></li>
+															<li><a href="shop-3-columns.html">Shop 3 Columns</a></li>
+															<li><a href="shop-4-columns.html">Shop 4 Columns</a></li>
+															<li><a href="shop-cart.html">cart</a></li>
+															<li><a href="shop-product-single.html">product single </a></li>
+														</ul>
+													</li>
+													<li>
+														<a href="#">Headers & Footers</a>
+														<ul class="mega-menu-list">
+															<li><a href="elements-header-1.html">Header Layout 1</a></li>
+															<li><a href="elements-header-2.html">Header Layout 2</a></li>
+															<li><a href="elements-header-3.html">Header Layout 3</a></li>
+															<li><a href="elements-footer-light.html">Footer - Light</a></li>
+															<li><a href="elements-footer-dark.html">Footer - Dark</a></li>
+														</ul>
+													</li>
+												</ul>
+											</div>
+										</li>
 
-						<div class="col-lg-2 col-md-12  d-none d-lg-block">
-							<a data-toggle="modal" data-target=".bd-example-modal-lg" href="#" class="btn btn-sm border-radius-30 margin-tb-12px text-white  background-dark  box-shadow float-right padding-lr-20px margin-left-30px d-block">
-                          <i class="fa fa-envelope-o"></i>  Задать вопрос
+									</ul>
+								</div>
+								<div class="col-lg-2 col-md-12  d-none d-lg-block">
+									<a data-toggle="modal" data-target=".bd-example-modal-lg" href="#" class="btn btn-sm border-radius-30 margin-tb-20px text-white  background-main-color  box-shadow float-right padding-lr-20px margin-left-30px d-block">
+                          <i class="fa fa-envelope-o margin-right-10px"></i>  Get A Quote
                         </a>
+								</div>
+							</div>
 						</div>
-
 					</div>
 				</div>
 			</div>
 		</div>
-		</div>
-
-
 	</header>
 	<!-- // Header  -->
-
 
 	<!-- Get A Quote  -->
 	<div class="modal contact-modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-hidden="true">
 		<div class="modal-dialog modal-lg">
 			<div class="modal-content margin-top-150px background-main-color">
 				<div class="row no-gutters">
-					<div class="col-lg-12">
+					<div class="col-lg-5">
+						<img src="http://placehold.it/405x605" alt="">
+					</div>
+					<div class="col-lg-7">
 						<div class="padding-30px">
-							<h3 class="padding-bottom-15px">Задать вопрос</h3>
+							<h3 class="padding-bottom-15px">Get A Free Quote</h3>
 							<form>
 								<div class="form-row">
 									<div class="form-group col-md-6">
-										<input type="text" class="form-control" id="inputName4" placeholder="Имя">
+										<label>Full Name</label>
+										<input type="text" class="form-control" id="inputName4" placeholder="Name">
 									</div>
 									<div class="form-group col-md-6">
-										<input type="phone" class="form-control" id="inputEmail4" placeholder="Номер телефона">
+										<label>Email</label>
+										<input type="email" class="form-control" id="inputEmail4" placeholder="Email">
 									</div>
 								</div>
 								<div class="form-group">
-									<label>Сообщение</label>
+									<label>Address</label>
+									<input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+								</div>
+								<div class="form-group">
+									<label>Message</label>
 									<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 								</div>
-								<a href="#" class="btn-sm btn-lg btn-block background-dark text-white text-center  text-uppercase rounded-0 padding-15px">Отправить</a>
+								<a href="#" class="btn-sm btn-lg btn-block background-dark text-white text-center  text-uppercase rounded-0 padding-15px">SEND MESSAGE</a>
 							</form>
 						</div>
 					</div>
@@ -148,333 +187,147 @@ if (alertwin != "no") {
 		</div>
 	</div>
 	<!-- // Get A Quote  -->
-
-	<div class="modal contact-modal fade collbackmodal" tabindex="-1" role="dialog" aria-hidden="true">
-		<div class="modal-dialog modal-lg">
-			<div class="modal-content margin-top-150px background-main-color">
-				<div class="row no-gutters">
-					<div class="col-lg-12">
-						<div class="padding-30px">
-							<h3 class="padding-bottom-15px">Забронировать</h3>
-							<form>
-								<div class="form-row">
-									<div class="form-group col-md-6">
-										<input type="text" class="form-control" id="inputName4" placeholder="Имя">
-									</div>
-									<div class="form-group col-md-6">
-										<input type="phone" class="form-control" id="inputEmail4" placeholder="Номер телефона">
-									</div>
-								</div>
-								<div class="form-group">
-									<label>Сообщение</label>
-									<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-								</div>
-								<a href="#" class="btn-sm btn-lg btn-block background-dark text-white text-center  text-uppercase rounded-0 padding-15px">Отправить</a>
-							</form>
+	<div class="page-title">
+		<div class="h-100">
+			<div class="row align-items-center h-100">
+			<div class="align-self-center col-7 text-center margin-top-25px">
+				<h1>ДРЕВНЕМАГИЧЕСКИЕ ОБРЯДЫ</h1>
+				<span>ДЛЯ ВАШЕГО БЛАГОПОЛУЧИЯ</span>
+			</div>
+			</div>
+		</div>
+	</div>
+	<!-- <div class="service-section-3">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="service layout-3 sm-mb-35px">
+						<div class="clearfix">
+							<div class="icon"><img src="assets/icons/service-light-1.png" alt=""></div>
+							<a href="#" class="title">Road Freight</a>
+						</div>
+						<div class="dis clearfix">
+							Chances are unless you are very lucky you will.
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="service layout-3 sm-mb-35px">
+						<div class="clearfix">
+							<div class="icon"><img src="assets/icons/service-light-2.png" alt=""></div>
+							<a href="#" class="title">Air Freight</a>
+						</div>
+						<div class="dis clearfix">
+							Chances are unless you are very lucky you will.
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="service layout-3">
+						<div class="clearfix">
+							<div class="icon"><img src="assets/icons/service-light-3.png" alt=""></div>
+							<a href="#" class="title">Ocean Freight</a>
+						</div>
+						<div class="dis clearfix">
+							Chances are unless you are very lucky you will.
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
-	<div class="page-title">
-		<div class="container h-100">
-			<div class="row align-items-center h-100">
-			<div class="align-self-center col-12">
-				<h1>ЖК Леонардо<br>Квартира в центре с отделкой + место на подземной парковке = ваша выгода до 700 000 рублей.</h1>
-					<div class="row d-flex justify-content-center header-buttons">
-						<a href="#4" class="tp-caption rev-btn col-lg-2 col-sm-7" id="slide-5-layer-2">Получить выгоду</a>
-						<a data-src="#trueModal" data-fancybox data-animation-duration="500" href="#trueModal" class="tp-caption rev-btn col-lg-2 col-sm-7" id="slide-5-layer-4">Читать подробней...</a>
-					</div>
-					
-			</div>
-			</div>
-		</div>
-	</div>
+
 	<!--============= About Us =============-->
-	<div class="section nile-about-section section-ba-1" id="AboutUs">
+	<div class="nile-about-section">
 		<div class="container">
-			<div class="row">
-				<div class="col-lg-12 sm-mb-45px">
-
-					<div class="section-title-right text-main-color clearfix">
-						<h2 class="title-text">О комплексе</h2>
+			<!-- Title -->
+			<div class="section-title margin-bottom-40px">
+				<div class="row justify-content-center">
+					<div class="col-lg-7">
+						<div class="icon text-main-color"><i class="fa fa-truck"></i></div>
+						<div class="h2">Our Service</div>
+						<div class="des">In quis luctus dolor. Sed ac libero arcu. Phasellus vulputate ultrices augue, eget feugiat lectus efficitur in. Nulla non pharetra justo. Nunc viverra consectetur bibendum. </div>
 					</div>
-					<p>Жить в центре города всегда было удобно и престижно. 
-Рестораны, магазины, театры и выставки, праздники и салюты. И очень много людей и суеты ...
-Понимая, что самый центр все-таки лучше оставить для  обществено-деловой жизни, мы строили ЖК "Леонардо" 
-в шаговой доступности от центра, но с возможностью личного уединения от городской суеты. </p>
-<p>
-Почти каждый слышал о том, что кирпичный дом существенно тепелее и тише чем панельный.
-Мы как строительная компания с почти 30-летним стажем строительства многоквартирных домов повышенной комфорности 
-подтверждаем все плюсы такого дома. Добавим еще шумоизоляционный вентилируемый фасад, толстые межквартирные стены,
-нетипичные варианты планировок, горизонталную разводку отопления, изолированные от квартир лифтовые шахты, широкие корридоры и
-колясочные на каждом этаже. Некоторые плюсы не видны сразу, но вы точно почувствуете разницу. 
-А если появились вопросы при прочтении, наши специалисты дадут вам подробную консультацию по каждому достоинству кирпичного дома.
-</p>
-<p>
-Парковка в центре всегда была связана с определенными трудностями, поэтому мы предусмотрели два этажа подземного паркинга 
-с реверсивным движением через два въезда. 
-</p>
-<p>
-17-ти этажный жилой дом переменной этажности позволил предложить несколько уникальных для центра квартир
-с открытыми террасами от 20 кв.м. до 67 кв.м. И визуально архитектурные решения ЖК "Леонардо" добавляют оригинальности 
-нашему городу. 
-</p>
-<p>
-Закрытая внутридомовая территория, консьерж, видеонаблюдение и благоустроенная детская пощадка должны
-быть обязательным условием для многоквартирного дома повышенной комфортности и ЖК "Леонардо" полностю отвечает этим требованиям.
-"Мой дом, моя крепость" - распостраняется на весь комплекс. 
-</p>
-<p>
-Фото, планировки и документы ждут вас ниже, а ПФК "Символ" ждет ваш в гости.  
-</p>
 				</div>
 			</div>
+			<!-- // End Title -->
+
+			<div class="row">
+
+				<div class="col-lg-3 col-md-6">
+					<div class="service-icon-box">
+						<div class="icon"><img src="assets/icons/service-dark-1.png" alt=""></div>
+						<a href="#" class="title h2">Cargo Transportation</a>
+						<div class="des">Ut elit tellus, luctus nec magna mattis et, pulvinar dapibus lorem leo ultricies et vitae enim.</div>
+					</div>
+				</div>
+
+
+				<div class="col-lg-3 col-md-6">
+					<div class="service-icon-box">
+						<div class="icon"><img src="assets/icons/service-dark-2.png" alt=""></div>
+						<a href="#" class="title h2">Air Freight</a>
+						<div class="des">Ut elit tellus, luctus nec magna mattis et, pulvinar dapibus lorem leo ultricies et vitae enim.</div>
+					</div>
+				</div>
+
+
+				<div class="col-lg-3 col-md-6">
+					<div class="service-icon-box">
+						<div class="icon"><img src="assets/icons/service-dark-3.png" alt=""></div>
+						<a href="#" class="title h2">Ocean Freight</a>
+						<div class="des">Ut elit tellus, luctus nec magna mattis et, pulvinar dapibus lorem leo ultricies et vitae enim.</div>
+					</div>
+				</div>
+
+
+				<div class="col-lg-3 col-md-6">
+					<div class="service-icon-box">
+						<div class="icon"><img src="assets/icons/service-dark-4.png" alt=""></div>
+						<a href="#" class="title h2">Packaging & Storage</a>
+						<div class="des">Ut elit tellus, luctus nec magna mattis et, pulvinar dapibus lorem leo ultricies et vitae enim.</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="text-center">
+				<a href="#" class="nile-bottom md">Show all <i class="fa fa-arrow-right"></i> </a>
+			</div>
+
 		</div>
+
 	</div>
 	<!--============= //About Us =============-->
 
 
 
-	<div id="2" class="section padding-tb-100px section-ba-2">
-		<div class="container">
-			<!-- Title -->
-			<div class="section-title margin-bottom-40px">
-				<div class="row justify-content-center">
-					<div class="col-lg-7">
-						<div class="h2">Планировки</div>
-					</div>
-				</div>
-			</div>
-			<!-- // End Title -->
-			<div class="container">
-				<div class="row">
-					<!-- partners item -->
-					<div class="col-lg-4 col-md-12 col-sm-12 margin-bottom-10px padding-top-10px">
-						<a data-src="#58_kv" data-fancybox href="#58_kv">
-						<div class="partners-item margin-bottom-tb-15px text-center sm-mb-30px">
-							<div class="row partners-item justify-content-center" style="height: 390px;">
-								<img class="align-self-center" style="height: 370px;" src="assets/img/layouts/58kv/58_kv_m.png" alt="">
-							</div>
-							<p>1-х комнатная квартира 58 м²</p>
-						</div>
-						</a>
-					</div>
-					<div id="58_kv" class="kv_modal">
-								<h2>1-х комнатная квартира 58 м²</h2>
-								<div class="fotorama" data-loop="true" data-allowfullscreen="true" data-width="600">
-									<img src="assets/img/layouts/58kv/58_kv_m.png" alt="">
-									<img src="assets/img/layouts/58kv/ZhK_Leonardo_58_m2.jpg" alt="">
-									<img src="assets/img/layouts/58kv/poetazhny_plan.png" alt="">
-								</div>
-							<a data-toggle="modal" style="margin-top: 15px;" data-target=".collbackmodal" href="#" class="btn fnacyclose btn-sm border-radius-30 text-white  background-dark  box-shadow  padding-lr-20px d-block">Забронировать</a>
-					</div>
-					<!--//  partners item -->
-					
-					<!-- partners item -->
-					<div class="col-lg-4 col-md-12 col-sm-12 margin-bottom-10px padding-top-10px">
-						<a data-src="#80_kv" data-fancybox href="#80_kv">
-						<div class="partners-item margin-bottom-tb-15px text-center sm-mb-30px">
-							<div class="row partners-item justify-content-center" style="height: 390px;">
-								<img class="align-self-center" src="assets/img/layouts/80kv/aeJXN4TLieE.png" alt="">
-							</div>
-							<p>2-х комнатная квартира 80 м²</p>
-						</div>
-						</a>
-					</div>
-					<div id="80_kv" class="kv_modal">
-								<h2>2-х комнатная квартира 80 м²</h2>
-								<div class="fotorama" data-loop="true" data-allowfullscreen="true" data-width="600">
-									<img src="assets/img/layouts/80kv/aeJXN4TLieE.png" alt="">
-									<img src="assets/img/layouts/80kv/ZhK_Leonardo_80_m2.jpg" alt="">
-									<img src="assets/img/layouts/80kv/poetazhny_plan_80_kv_m.jpg" alt="">
-								</div>
-								<a data-toggle="modal" data-target=".collbackmodal" href="#" style="margin-top: 15px;" class="btn fnacyclose btn-sm border-radius-30 text-white  background-dark  box-shadow  padding-lr-20px d-block">Забронировать</a>
-					</div>
-					<!--//  partners item -->
-					
-					<!-- partners item -->
-					<div class="col-lg-4 col-md-12 col-sm-12 margin-bottom-10px">
-						<a data-src="#83_kv" data-fancybox href="#83_kv">
-						<div class="partners-item margin-bottom-tb-15px text-center sm-mb-30px">
-							<img style="height: 390px;" src="assets/img/layouts/83kv/83_kv_m_dizayn.png" alt="">
-							<p>2-х комнатная квартира 83 м²</p>
-						</div>
-						</a>
-					</div>
-					<div id="83_kv" class="kv_modal">
-								<h2>2-х комнатная квартира 83 м²</h2>
-								<div class="fotorama" data-loop="true" data-allowfullscreen="true" data-width="600">
-									<img src="assets/img/layouts/83kv/83_kv_m_dizayn.png" alt="">
-									<img src="assets/img/layouts/83kv/planirovka_83_kv_m.png" alt="">
-									<img src="assets/img/layouts/83kv/poetazhny_plan_83_kv_m.png" alt="">
-								</div>
-								<a data-toggle="modal" data-target=".collbackmodal" href="#" style="margin-top: 15px;" class="btn fnacyclose btn-sm border-radius-30 text-white  background-dark  box-shadow  padding-lr-20px d-block">Забронировать</a>
-					</div>
-					<!--//  partners item -->
-
-
-					<!-- partners item -->
-					<div class="col-lg-4 col-md-12 col-sm-12 margin-bottom-10px">
-						<a data-src="#100_kv" data-fancybox href="#100_kv">
-							<div class="partners-item margin-bottom-tb-15px text-center sm-mb-30px">
-								<div class="row partners-item justify-content-center" style="height: 390px;">
-								<img style="width: 340px;" class="align-self-center" src="assets/img/layouts/12_etazh_s_terrastoy_100_kv_m.png" alt="">
-								</div>
-								<p>3-х комнатная квартира 104 м²</p>
-							</div>
-						</a>
-					</div>
-					<div id="100_kv" class="kv_modal">
-								<h2>3-х комнатная квартира 104 м²</h2>
-								<div class="fotorama" data-loop="true" data-allowfullscreen="true" data-width="600">
-									<img src="assets/img/layouts/12_etazh_s_terrastoy_100_kv_m.png" alt="">
-								</div>
-								<a data-toggle="modal" data-target=".collbackmodal" href="#" style="margin-top: 15px;" class="btn fnacyclose btn-sm border-radius-30 text-white  background-dark  box-shadow  padding-lr-20px d-block">Забронировать</a>
-					</div>
-					<!--//  partners item -->
-
-
-					<!-- partners item -->
-					<div class="col-lg-4 col-md-12 col-xs-12 col-sm-12 margin-bottom-10px">
-						<a data-src="#148_kv" data-fancybox href="#140_kv">
-						<div class="partners-item margin-bottom-tb-15px text-center sm-mb-30px">
-							<div class="row partners-item justify-content-center" style="height: 390px;">
-							<img class="align-self-center" style="width: 340px;" src="assets/img/layouts/148kv/148_kv_m_proekt.png" alt="">
-							</div>
-							<p>4-х комнатная квартира 148 м²</p>
-						</div>
-						</a>
-					</div>
-					<div id="148_kv" class="kv_modal">
-								<h2>4-х комнатная квартира 148 м²</h2>
-								<div class="fotorama" data-loop="true" data-allowfullscreen="true" data-width="600">
-									<img src="assets/img/layouts/148kv/148_kv_m_proekt.png" alt="">
-									<img src="assets/img/layouts/148kv/148_kv_m.png" alt="">
-									<img src="assets/img/layouts/148kv/poetazhny_plan_148_kv_m.png" alt="">
-								</div>
-								<a data-toggle="modal" data-target=".collbackmodal" href="#" style="margin-top: 15px;" class="btn fnacyclose btn-sm border-radius-30 text-white  background-dark  box-shadow  padding-lr-20px d-block">Забронировать</a>
-					</div>
-					<!--//  partners item -->
-					
-				</div>
-			</div>
-		</div>
-	</div>
-
-<div id="3" class="section padding-tb-100px">
-		<div class="container">
-			<!-- Title -->
-			<div class="section-title margin-bottom-40px">
-				<div class="row justify-content-center">
-					<div class="col-lg-7">
-						<div class="h2">Калькулятор ипотеки</div>
-					</div>
-				</div>
-			</div>
-			<!-- // End Title -->
-				<div class="uCalc_194590"></div><script> var widgetOptions194590 = { bg_color: "transparent" }; (function() { var a = document.createElement("script"), h = "head"; a.async = true; a.src = (document.location.protocol == "https:" ? "https:" : "http:") + "//ucalc.pro/api/widget.js?id=194590&t="+Math.floor(new Date()/18e5); document.getElementsByTagName(h)[0].appendChild(a) })();</script>
-		
-	</div>
-</div>
-
-
-<div id="5" class="section padding-tb-100px section-ba-2">
-		<div class="container">
-			<!-- Title -->
-			<div class="section-title margin-bottom-40px">
-				<div class="row justify-content-center">
-					<div class="col-lg-7">
-						<div class="h2">Наши партнеры</div>
-					</div>
-				</div>
-			</div>
-			<!-- // End Title -->
-
-
-			<div class="row">
-				
-
-					<!-- partners item -->
-					<div class="col-lg-3 col-md-3 col-sm-3 col-3">
-						<div class="partners-item margin-tb-15px text-center">
-							<img src="assets/img/partners/absolut.png" alt="">
-						</div>
-					</div>
-					<!--//  partners item -->
-
-					<!-- partners item -->
-					<div class="col-lg-3 col-md-3 col-sm-3 col-3">
-						<div class="partners-item margin-tb-15px text-center">
-							<img src="assets/img/partners/gazprom.png" alt="">
-						</div>
-					</div>
-					<!--//  partners item -->
-
-
-					<!-- partners item -->
-					<div class="col-lg-3 col-md-3 col-sm-3 col-3">
-						<div class="partners-item margin-tb-15px text-center">
-							<img src="assets/img/partners/zapsib.png" alt="">
-						</div>
-					</div>
-					<!--//  partners item -->
-
-
-					<!-- partners item -->
-					<div class="col-lg-3 col-md-3 col-sm-3 col-3">
-						<div class="partners-item margin-tb-15px text-center">
-							<img src="assets/img/partners/primsoc.png" alt="">
-						</div>
-					</div>
-					<!--//  partners item -->
-
-					<div class="d-flex justify-content-center">
-
-					<!-- partners item -->
-					<div class="col-lg-3 col-md-3 col-sm-3 col-3">
-						<div class="partners-item margin-tb-15px text-center">
-							<img src="assets/img/partners/uralsib.png" alt="">
-						</div>
-					</div>
-					<!--//  partners item -->
-										<!-- partners item -->
-					<div class="col-lg-3 col-md-3 col-sm-3 col-3 padding-top-40px">
-						<div class="partners-item margin-tb-15px text-center">
-							<img src="assets/img/partners/sber.png" alt="">
-						</div>
-					</div>
-					<!--//  partners item -->
-					<!-- partners item -->
-					<div class="col-lg-3 col-md-3 col-sm-3 col-3">
-						<div class="partners-item margin-tb-15px text-center">
-							<img src="assets/img/partners/vtb.png" alt="">
-						</div>
-					</div>
-					<!--//  partners item -->
-					</div>
-
-
-			</div>
-
-		</div>
-	</div>
-
-
-<div class="call-action ba-1">
+	<div class="call-action ba-1">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-7 sm-text-right text-right">
-					<h2 class="padding-top-15px">Документы и фотоотчеты</h2>
+				<div class="col-lg-7 padding-tb-15px">
+					<h2>Unbeatable Trucking and Transport Services</h2>
+					<div class="text">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
 				</div>
 				<div class="col-lg-5">
 					<div class="row">
-						<div class="col-lg-6 col-md-12">
-							<a href="http://rielt-simvol.ru/docs/" class="action-bottom layout-1">
+						<div class="col-lg-4 col-md-4 sm-mb-45px">
+							<a href="#" class="action-bottom layout-1">
+								<img src="assets/icons/small-icon-1.png" alt="">
+								<h4>Tell Friend</h4>
+							</a>
+						</div>
+						<div class="col-lg-4 col-md-4 sm-mb-45px">
+							<a href="#" class="action-bottom layout-1">
 								<img src="assets/icons/small-icon-2.png" alt="">
-								<h4>Скачать</h4>
+								<h4>Read More</h4>
+							</a>
+						</div>
+						<div class="col-lg-4 col-md-4">
+							<a href="#" class="action-bottom layout-1">
+								<img src="assets/icons/small-icon-3.png" alt="">
+								<h4>Contact Us</h4>
 							</a>
 						</div>
 					</div>
@@ -483,42 +336,107 @@ if (alertwin != "no") {
 		</div>
 	</div>
 
-	<div id="4" class="section padding-tb-100px section-ba-1">
+
+	<div class="section padding-tb-100px section-ba-2">
 		<div class="container">
 			<!-- Title -->
 			<div class="section-title margin-bottom-40px">
 				<div class="row justify-content-center">
 					<div class="col-lg-7">
-						<div class="icon text-main-color"><i class="fa fa-commenting-o"></i></div>
-						<div class="h2">Задать вопрос</div>
-						<div class="des">Заполните данную форму и мы свяжемся с вами!</div>
+						<div class="icon text-main-color"><i class="fa fa-money"></i></div>
+						<div class="h2">Our Pricing</div>
+						<div class="des">In quis luctus dolor. Sed ac libero arcu. Phasellus vulputate ultrices augue, eget feugiat lectus efficitur in. Nulla non pharetra justo. Nunc viverra consectetur bibendum. </div>
 					</div>
 				</div>
 			</div>
 			<!-- // End Title -->
 
-
 			<div class="row">
 
-				<form class="col-12">
-								<div class="form-row">
-									<div class="form-group col-md-6">
-										<label>Имя</label>
-										<input type="text" class="form-control" id="inputName4" placeholder="Имя">
-									</div>
-									<div class="form-group col-md-6">
-										<label>Номер телефона</label>
-										<input type="phone" class="form-control" id="inputEmail4" placeholder="Номер телефона">
-									</div>
-								</div>
-								
-								<div class="form-group">
-									<label>Сообщение</label>
-									<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-								</div>
-								<a href="#" class="btn-sm btn-lg btn-block background-dark text-white text-center  text-uppercase rounded-0 padding-15px">Отправить</a>
-							</form>
+				<!-- item -->
+				<div class="col-lg-3 col-md-6">
+					<div class="price-table">
+						<div class="title main-color">BASIC</div>
+						<div class="price"><span>$</span>199</div>
+						<div class="per-mile">PER MILE</div>
+						<ul class="elements">
+							<li>4000 kg load</li>
+							<li>425 kg / pallet </li>
+							<li>Warehousing</li>
+							<li>Free Packaging </li>
+							<li>24/7 support</li>
+						</ul>
+						<div class="padding-25px">
+							<a href="#" class="nile-bottom sm-block">ORDER NOW</a>
+						</div>
+					</div>
+				</div>
+				<!-- // end item -->
 
+				<!-- item -->
+				<div class="col-lg-3 col-md-6">
+					<div class="price-table">
+						<div class="title main-color">BASIC</div>
+						<div class="price"><span>$</span>213</div>
+						<div class="per-mile">PER MILE</div>
+						<ul class="elements">
+							<li>4000 kg load</li>
+							<li>425 kg / pallet </li>
+							<li>Warehousing</li>
+							<li>Free Packaging </li>
+							<li>24/7 support</li>
+						</ul>
+						<div class="padding-25px">
+							<a href="#" class="nile-bottom sm-block">ORDER NOW</a>
+						</div>
+					</div>
+				</div>
+				<!-- // end item -->
+
+
+
+
+				<!-- item -->
+				<div class="col-lg-3 col-md-6">
+					<div class="price-table active">
+						<div class="title main-color">BASIC</div>
+						<div class="price"><span>$</span>813</div>
+						<div class="per-mile">PER MILE</div>
+						<ul class="elements">
+							<li>4000 kg load</li>
+							<li>425 kg / pallet </li>
+							<li>Warehousing</li>
+							<li>Free Packaging </li>
+							<li>24/7 support</li>
+						</ul>
+						<div class="padding-25px">
+							<a href="#" class="nile-bottom sm-block">ORDER NOW</a>
+						</div>
+					</div>
+				</div>
+				<!-- // end item -->
+
+
+
+				<!-- item -->
+				<div class="col-lg-3 col-md-6">
+					<div class="price-table">
+						<div class="title main-color">BASIC</div>
+						<div class="price"><span>$</span>650</div>
+						<div class="per-mile">PER MILE</div>
+						<ul class="elements">
+							<li>4000 kg load</li>
+							<li>425 kg / pallet </li>
+							<li>Warehousing</li>
+							<li>Free Packaging </li>
+							<li>24/7 support</li>
+						</ul>
+						<div class="padding-25px">
+							<a href="#" class="nile-bottom sm-block">ORDER NOW</a>
+						</div>
+					</div>
+				</div>
+				<!-- // end item -->
 
 			</div>
 
@@ -526,57 +444,217 @@ if (alertwin != "no") {
 	</div>
 
 
-	<div class="map-layout">
-		<div class="map-embed">
-			<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A5aa61c82855f00faf30504ecf34eb3e44b8180f2516cc04362b3538313286c5e&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
-		</div>
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8"></div>
-				<div class="col-lg-4">
-					<div class="padding-tb-50px padding-lr-30px background-main-color pull-top-355px">
-						<div class="contact-info-map">
-							<div class="margin-bottom-30px">
-								<h2 class="title">Адрес</h2>
-								<div class="contact-info opacity-9">
-									<div class="icon margin-top-5px"><span class="icon_compass_alt"></span></div>
-									<div class="text margin-bottom-5px">
-										<span class="title-in">ЖК Леонардо: ул. Елькина, 88А, Челябинск</span> <br>
-									</div>
-									<div class="icon margin-top-5px"><span class="icon_pin_alt"></span></div>
-									<div class="text">
-										<span class="title-in">Офис продаж: улица Карла Либкнехта, 36А, Челябинск</span> <br>
-									</div>
-								</div>
-							</div>
-							<hr>
-							<div class="call_center margin-top-30px">
-								<h2 class="title">Телефон</h2>
-								<div class="contact-info opacity-9">
-									<div class="icon  margin-top-5px"><span class="icon_phone"></span></div>
-									<div class="text">
-										<span class="title-in">+7 (351) 700-88-10</span><br>
-										<span class="font-weight-500 text-uppercase"><br></span>
-									</div>
-								</div>
-							</div>
+
+
+	<div class="partners">
+		<div class="nile-about-section">
+			<div class="container">
+				<div class="row">
+
+					<!-- partners item -->
+					<div class="col-lg-2 col-md-3 col-sm-6">
+						<div class="partners-item margin-tb-15px text-center">
+							<img src="http://placehold.it/170x80" alt="">
 						</div>
 					</div>
+					<!--//  partners item -->
+
+
+					<!-- partners item -->
+					<div class="col-lg-2 col-md-3 col-sm-6">
+						<div class="partners-item margin-tb-15px text-center">
+							<img src="http://placehold.it/170x80" alt="">
+						</div>
+					</div>
+					<!--//  partners item -->
+
+
+					<!-- partners item -->
+					<div class="col-lg-2 col-md-3 col-sm-6">
+						<div class="partners-item margin-tb-15px text-center">
+							<img src="http://placehold.it/170x80" alt="">
+						</div>
+					</div>
+					<!--//  partners item -->
+
+
+					<!-- partners item -->
+					<div class="col-lg-2 col-md-3 col-sm-6">
+						<div class="partners-item margin-tb-15px text-center">
+							<img src="http://placehold.it/170x80" alt="">
+						</div>
+					</div>
+					<!--//  partners item -->
+
+
+					<!-- partners item -->
+					<div class="col-lg-2 col-md-3 col-sm-6">
+						<div class="partners-item margin-tb-15px text-center">
+							<img src="http://placehold.it/170x80" alt="">
+						</div>
+					</div>
+					<!--//  partners item -->
+
+
+					<!-- partners item -->
+					<div class="col-lg-2 col-md-3 col-sm-6">
+						<div class="partners-item margin-tb-15px text-center">
+							<img src="http://placehold.it/170x80" alt="">
+						</div>
+					</div>
+					<!--//  partners item -->
+
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<footer id="6" class="layout-light pull-top-10px">
+
+
+
+	<div class="section padding-tb-100px section-ba-3">
+		<div class="container">
+			<!-- Title -->
+			<div class="section-title margin-bottom-40px">
+				<div class="row justify-content-center">
+					<div class="col-lg-7">
+						<div class="icon text-main-color"><i class="fa fa-bookmark-o"></i></div>
+						<div class="h2">Last News</div>
+						<div class="des">In quis luctus dolor. Sed ac libero arcu. Phasellus vulputate ultrices augue, eget feugiat lectus efficitur in. Nulla non pharetra justo. Nunc viverra consectetur bibendum. </div>
+					</div>
+				</div>
+			</div>
+			<!-- // End Title -->
+
+			<div class="row">
+
+				<div class="col-lg-4 col-md-6 sm-mb-35px">
+					<div class="blog-item">
+						<div class="img">
+							<a href="#"><img src="http://placehold.it/410x250" alt=""></a>
+							<a href="#" class="date">
+								<span class="day">15</span>
+								<span class="month">April</span>
+							</a>
+						</div>
+						<a href="#" class="title">Long Don’t Spend Time Beating On A Wall, Hoping To Trans ...</a>
+					</div>
+				</div>
+
+
+				<div class="col-lg-4 col-md-6 sm-mb-35px">
+					<div class="blog-item">
+						<div class="img">
+							<a href="#"><img src="http://placehold.it/410x250" alt=""></a>
+							<a href="#" class="date">
+								<span class="day">15</span>
+								<span class="month">April</span>
+							</a>
+						</div>
+						<a href="#" class="title">Long Don’t Spend Time Beating On A Wall, Hoping To Trans ...</a>
+					</div>
+				</div>
+
+
+				<div class="col-lg-4 col-md-6 sm-mb-35px">
+					<div class="blog-item">
+						<div class="img">
+							<a href="#"><img src="http://placehold.it/410x250" alt=""></a>
+							<a href="#" class="date">
+								<span class="day">15</span>
+								<span class="month">April</span>
+							</a>
+						</div>
+						<a href="#" class="title">Long Don’t Spend Time Beating On A Wall, Hoping To Trans ...</a>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+
+
+	<footer class="layout-dark">
+		<div class="container padding-tb-100px">
+			<div class="row">
+
+				<div class="col-lg-3 col-md-6">
+					<div class="about-us sm-mb-45px">
+						<div class="logo-footer margin-bottom-35px">
+							<a href="#"><img src="assets/img/logo-1.png" alt=""></a>
+						</div>
+						<div class="text margin-bottom-35px">
+							Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+						</div>
+						<a href="#" class="nile-bottom sm">Read More</a>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-md-6">
+					<div class="nile-widget widget_nav_menu sm-mb-45px">
+						<h2 class="title">Our Services</h2>
+						<ul class="footer-menu">
+							<li><a href="#">Cargo Transportation </a></li>
+							<li><a href="#">Air Freight </a></li>
+							<li><a href="#">Ocean Freight </a></li>
+							<li><a href="#">Packaging & Storage </a></li>
+							<li><a href="#">Air Freight </a></li>
+						</ul>
+					</div>
+				</div>
+
+
+				<div class="col-lg-3 col-md-6">
+					<div class="nile-widget widget_nav_menu sm-mb-45px">
+						<h2 class="title">Site Pages</h2>
+						<ul class="footer-menu">
+							<li><a href="#">Cargo Transportation </a></li>
+							<li><a href="#">Air Freight </a></li>
+							<li><a href="#">Ocean Freight </a></li>
+							<li><a href="#">Packaging & Storage </a></li>
+							<li><a href="#">Air Freight </a></li>
+						</ul>
+					</div>
+				</div>
+
+
+				<div class="col-lg-3 col-md-6">
+					<div class="nile-widget">
+						<div class="margin-bottom-60px">
+							<h2 class="title">Location</h2>
+							<div class="contact-info opacity-9">
+								<div class="icon margin-top-5px"><span class="icon_pin_alt"></span></div>
+								<div class="text">
+									<span class="title-in">Location :</span> <br>
+									<span class="font-weight-500 text-uppercase">US - Los Angeles</span>
+								</div>
+							</div>
+						</div>
+						<div class="call_center">
+							<h2 class="title">Call Center</h2>
+							<div class="contact-info opacity-9">
+								<div class="icon  margin-top-5px"><span class="icon_phone"></span></div>
+								<div class="text">
+									<span class="title-in">Call Us :</span><br>
+									<span class="font-weight-500 text-uppercase">00222123333019</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
 		<div class="copy-right">
-			<div class="container padding-tb-20px">
+			<div class="container padding-tb-50px">
 				<div class="row">
 					<div class="col-lg-6">
-						<div class="copy-right-text text-lg-left text-center sm-mb-15px">© СК Символ </div>
+						<div class="copy-right-text text-lg-left text-center sm-mb-15px">© 2018 Transportion & Logistics Theme by <a href="#">Nile Theme</a> - All rights reserved </div>
 					</div>
-					<!-- <div class="col-lg-6">
-						
-						<ul class="social-media list-inline text-lg-right text-center margin-0px text-dark">
+					<div class="col-lg-6">
+						<!--  Social -->
+						<ul class="social-media list-inline text-lg-right text-center margin-0px text-white">
 							<li class="list-inline-item"><a class="facebook" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 							<li class="list-inline-item"><a class="youtube" href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
 							<li class="list-inline-item"><a class="linkedin" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
@@ -584,40 +662,18 @@ if (alertwin != "no") {
 							<li class="list-inline-item"><a class="twitter" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
 							<li class="list-inline-item"><a class="rss" href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
 						</ul>
-					
-					</div> -->
+						<!-- // Social -->
+					</div>
 				</div>
 			</div>
 		</div>
 	</footer>
-
-	<div id="trueModal" style="display: none;" class="animated-modal p-5 fancybox-content">
-        <p>Развитая инфаркструктура района: В шаговой доступности находятся детские сады и средние ообщебразовательные учереждения, медецинские учереждения <br>
-
-Широкий спектр розничной торговли: Досуговые, культурные, развлекательные центры. Городской парк им. Пушкина. Удобная транспортная доступность
-<br>
-Большой выбор квартир ращличной площади (от 53,5 кв.м. до 228,4 кв.м.) и различных планировок.
-<br>
-Благоустройство территории: Закрытое дворовое пространство. Охраняемый подземный и наземный автопаркинг.
-<br>
-Обустроенная десткая площадка: Ландшафтное озеленение дворовой территории. Наружное освещение. Автоматизированная система контроля и учета энергоресурсов
-</p>
-    </div>
-
-    <div id="exitblock" style="display: none;" class="exitblock animated-modal p-5 fancybox-content text-center">
-        <h3 class="margin-bottom-0px">
-            Жаль, что Вы уходите... Мы решили подарить Вам дополнительную скидку <br> в 50 000 рублей на покупку квартиры.
-        </h3>
-        <p>Забрать подарок просто! Жмите на кнопку и напишите ключевое слово "ПОДАРОК". </p>
-        <a href="https://vk.com/im?sel=-165248948" target="_blanck" class="btn margin-top-10px fnacyclose btn-sm border-radius-30 text-white  background-dark  box-shadow  padding-lr-20px">Забрать подарок</a>
-        
-    </div>
+	<!-- jquery library  -->
+	<script src="assets/js/jquery-3.2.1.min.js"></script>
 	<!-- REVOLUTION JS FILES -->
 	<script src="assets/js/nile-slider.js"></script>
 	<script src="assets/rslider/js/jquery.themepunch.tools.min.js"></script>
 	<script src="assets/rslider/js/jquery.themepunch.revolution.min.js"></script>
-	<script src="assets/js/fotorama.js"></script>
-	 <!-- 16 KB -->
 	<!-- SLIDER REVOLUTION 5.0 EXTENSIONS -->
 	<script src="assets/rslider/js/extensions/revolution.extension.actions.min.js"></script>
 	<script src="assets/rslider/js/extensions/revolution.extension.carousel.min.js"></script>
@@ -628,29 +684,13 @@ if (alertwin != "no") {
 	<script src="assets/rslider/js/extensions/revolution.extension.parallax.min.js"></script>
 	<script src="assets/rslider/js/extensions/revolution.extension.slideanims.min.js"></script>
 	<script src="assets/rslider/js/extensions/revolution.extension.video.min.js"></script>
-	
+	<script src="assets/js/YouTubePopUp.jquery.js"></script>
 	<script src="assets/js/owl.carousel.min.js"></script>
 	<script src="assets/js/imagesloaded.min.js"></script>
 	<script src="assets/js/custom.js"></script>
 	<script src="assets/js/popper.min.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
-	
-	
-	<script>
-		
-    $(document).ready(function() {
-        $('.fnacyclose').click( function(){
-        	$.fancybox.close();
-        });
-    });
-	</script>
-	<script type="text/javascript" src="https://vk.com/js/api/openapi.js?160"></script> 
 
-<!— VK Widget —> 
-<div id="vk_community_messages"></div> 
-<script type="text/javascript"> 
-VK.Widgets.CommunityMessages("vk_community_messages", 165248948, {expanded: "1",tooltipButtonText: "Ответим на Ваш вопрос прямо сейчас!"}); 
-</script>
 </body>
 
 </html>

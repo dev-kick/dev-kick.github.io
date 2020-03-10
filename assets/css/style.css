@@ -38650,7 +38650,7 @@ form.dark-form ::-ms-input-placeholder {
 }
 
 .map-layout {
-    margin-bottom: -10px;
+    margin-bottom: -20px;
 }
 
 .stone-cart {
@@ -38659,6 +38659,15 @@ form.dark-form ::-ms-input-placeholder {
     flex-direction: column;
     justify-content: flex-end;
     text-align: center;
+}
+
+.contact-info{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.contact-info-map span a{
+    color: #fff;
 }
 
 #slide-11-layer-1 {

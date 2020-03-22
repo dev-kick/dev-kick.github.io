@@ -219,7 +219,7 @@ header ul.nav-menu > li.mega-menu > a, header ul.nav-menu > li.has-dropdown > a 
 
 header ul.nav-menu > li.mega-menu > a:after, header ul.nav-menu > li.has-dropdown > a:after {
     content: "\f107";
-    font-family: 'Montserrat', sans-serif;
+    font-family: FontAwesome;
     margin-left: 3px;
 }
 
@@ -1619,7 +1619,7 @@ header#sidebar-header ul.nav-menu .mega-links-4columns ul.sub-menu-columns > li 
 }
 
 .nile-about-section {
-    padding: 100px 0px 100px 0px;
+    padding: 50px 0px 50px 0px;
     background-color: #fff;
 }
 

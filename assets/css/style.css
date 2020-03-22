@@ -1782,6 +1782,7 @@ a.action-bottom:hover {
 
 .section-title .icon {
     font-size: 25px;
+    margin-bottom: 10px;
 }
 
 .section-title .h2 {
@@ -38713,4 +38714,10 @@ form.dark-form ::-ms-input-placeholder {
     content: "";
     width: 0;
   }
+}
+
+.work-block{
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 5px;
 }

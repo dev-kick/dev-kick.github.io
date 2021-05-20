@@ -2,7 +2,13 @@
     // USE STRICT
     "use strict";
 
-
+    $(document).ready(function (){
+        var $customEvents = document.getElementById('custom-events');
+        lightGallery($customEvents, {
+            subHtmlSelectorRelative: true
+        });
+    });
+    
     //-------------------------------------------------------
     // Config Animsition
     //-------------------------------------------------------

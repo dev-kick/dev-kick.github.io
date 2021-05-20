@@ -54,6 +54,10 @@
           rel="stylesheet"/>
     <link href="vendor/revolution/css/settings.css"
           rel="stylesheet"/>
+    <link rel="stylesheet"
+          href="css/lightgallery.css">
+    <link rel="stylesheet"
+          href="css/jquery.fancybox.min.css">
     <!-- Main CSS-->
     <link href="css/main.css"
           rel="stylesheet"
@@ -106,7 +110,16 @@
                                         </li>
                                     </ul>
                                 </nav>
-                                <a class="header-contact" href="tel: +78122100909">+7 (812) 210-09-09</a>
+                                <a class="header-contact"
+                                   href="tel: +78122100909"><i class="fas fa-phone"></i> +7 (812) 210-09-09
+                                </a>
+                                <a href="mailto:sale@ohtinskypark.ru"
+                                   class="header-contact"><i class="far fa-envelope"></i>sale@ohtinskypark.ru
+                                </a>
+                                <a href="#exampleModalLong"
+                                   data-toggle="modal"
+                                   class="au-btn header-button">Закзать звонок
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -195,7 +208,7 @@
                     <ul>
                         <li class="rev-item rev-item-1"
                             data-transition="crossfade">
-                            <img class="rev-slidebg"
+                            <img class="rev-slid"
                                  src="images/main-bg.jpg"
                                  alt="Master Slider 01"/>
                             <h2 class="tp-caption tp-resizeme rev-text-2"
@@ -260,6 +273,7 @@
                                  data-videoloop="loopandnoslidestop"
                                  data-aspectratio="16:9"
                                  data-videostartat="00:09"
+                                 data-videoendat="1:47"
                                  data-autoplay="on"
                                  data-autoplayonlyfirsttime="true"
                             >
@@ -270,7 +284,8 @@
             </div>
         </section>
         <!-- ABOUT US-->
-        <section class="p-t-100 p-b-55" id="home">
+        <section class="p-t-100 p-b-55"
+                 id="home">
             <div class="container">
                 <div class="media-about">
                     <div class="row">
@@ -295,7 +310,9 @@
                 <div class="container-fluid">
                     <div class="row gutter-lg">
                         <div class="col-md-6 col-lg-3">
-                            <article class="media media-project media-project-1">
+                            <article data-fancybox="1"
+                                     href="images/home/object-1.jpg"
+                                     class="media media-project media-project-1">
                                 <figure class="media__img">
                                     <img src="images/home/object-1.jpg"
                                          alt="luxury villa">
@@ -303,10 +320,18 @@
                                 <div class="bg-overlay"></div>
                                 <span class="line"></span>
                                 <span class="line line--bottom"></span>
+                                <div class="media__body">
+                                    <h3 class="title">
+                                        <i class="fa fa-search"
+                                           aria-hidden="true"></i>
+                                    </h3>
+                                </div>
                             </article>
                         </div>
                         <div class="col-md-6 col-lg-3">
-                            <article class="media media-project media-project-1">
+                            <article data-fancybox="1"
+                                     href="images/home/object-2.jpg"
+                                     class="media media-project media-project-1">
                                 <figure class="media__img">
                                     <img src="images/home/object-2.jpg"
                                          alt="wooden villa">
@@ -314,10 +339,18 @@
                                 <div class="bg-overlay"></div>
                                 <span class="line"></span>
                                 <span class="line line--bottom"></span>
+                                <div class="media__body">
+                                    <h3 class="title">
+                                        <i class="fa fa-search"
+                                           aria-hidden="true"></i>
+                                    </h3>
+                                </div>
                             </article>
                         </div>
                         <div class="col-md-6 col-lg-3">
-                            <article class="media media-project media-project-1">
+                            <article data-fancybox="1"
+                                     href="images/home/object-3.jpg"
+                                     class="media media-project media-project-1">
                                 <figure class="media__img">
                                     <img src="images/home/object-3.jpg"
                                          alt="Skyline">
@@ -325,10 +358,18 @@
                                 <div class="bg-overlay"></div>
                                 <span class="line"></span>
                                 <span class="line line--bottom"></span>
+                                <div class="media__body">
+                                    <h3 class="title">
+                                        <i class="fa fa-search"
+                                           aria-hidden="true"></i>
+                                    </h3>
+                                </div>
                             </article>
                         </div>
                         <div class="col-md-6 col-lg-3">
-                            <article class="media media-project media-project-1">
+                            <article data-fancybox="1"
+                                     href="images/home/object-4.jpg"
+                                     class="media media-project media-project-1">
                                 <figure class="media__img">
                                     <img src="images/home/object-4.jpg"
                                          alt="Frozen house">
@@ -336,10 +377,18 @@
                                 <div class="bg-overlay"></div>
                                 <span class="line"></span>
                                 <span class="line line--bottom"></span>
+                                <div class="media__body">
+                                    <h3 class="title">
+                                        <i class="fa fa-search"
+                                           aria-hidden="true"></i>
+                                    </h3>
+                                </div>
                             </article>
                         </div>
                         <div class="col-md-6 col-lg-3">
-                            <article class="media media-project media-project-1">
+                            <article data-fancybox="1"
+                                     href="images/home/object-5.jpg"
+                                     class="media media-project media-project-1">
                                 <figure class="media__img">
                                     <img src="images/home/object-5.jpg"
                                          alt="luxury villa">
@@ -347,10 +396,18 @@
                                 <div class="bg-overlay"></div>
                                 <span class="line"></span>
                                 <span class="line line--bottom"></span>
+                                <div class="media__body">
+                                    <h3 class="title">
+                                        <i class="fa fa-search"
+                                           aria-hidden="true"></i>
+                                    </h3>
+                                </div>
                             </article>
                         </div>
                         <div class="col-md-6 col-lg-3">
-                            <article class="media media-project media-project-1">
+                            <article data-fancybox="1"
+                                     href="images/home/object-6.jpg"
+                                     class="media media-project media-project-1">
                                 <figure class="media__img">
                                     <img src="images/home/object-6.jpg"
                                          alt="wooden villa">
@@ -358,10 +415,18 @@
                                 <div class="bg-overlay"></div>
                                 <span class="line"></span>
                                 <span class="line line--bottom"></span>
+                                <div class="media__body">
+                                    <h3 class="title">
+                                        <i class="fa fa-search"
+                                           aria-hidden="true"></i>
+                                    </h3>
+                                </div>
                             </article>
                         </div>
                         <div class="col-md-6 col-lg-3">
-                            <article class="media media-project media-project-1">
+                            <article data-fancybox="1"
+                                     href="images/home/object-7.jpg"
+                                     class="media media-project media-project-1">
                                 <figure class="media__img">
                                     <img src="images/home/object-7.jpg"
                                          alt="wooden villa">
@@ -369,10 +434,18 @@
                                 <div class="bg-overlay"></div>
                                 <span class="line"></span>
                                 <span class="line line--bottom"></span>
+                                <div class="media__body">
+                                    <h3 class="title">
+                                        <i class="fa fa-search"
+                                           aria-hidden="true"></i>
+                                    </h3>
+                                </div>
                             </article>
                         </div>
                         <div class="col-md-6 col-lg-3">
-                            <article class="media media-project media-project-1">
+                            <article data-fancybox="1"
+                                     href="images/home/object-8.jpg"
+                                     class="media media-project media-project-1">
                                 <figure class="media__img">
                                     <img src="images/home/object-8.jpg"
                                          alt="Skyline">
@@ -380,6 +453,12 @@
                                 <div class="bg-overlay"></div>
                                 <span class="line"></span>
                                 <span class="line line--bottom"></span>
+                                <div class="media__body">
+                                    <h3 class="title">
+                                        <i class="fa fa-search"
+                                           aria-hidden="true"></i>
+                                    </h3>
+                                </div>
                             </article>
                         </div>
                     </div>
@@ -387,7 +466,8 @@
             </div>
         </section>
         <!-- SERVICE-->
-        <section class="p-t-60 p-b-55" id="characteristics">
+        <section class="p-t-60 p-b-55"
+                 id="characteristics">
             <div class="container">
                 <div class="section-title">
                     <h5 class="title-sub">о преимуществах</h5>
@@ -482,7 +562,8 @@
             </div>
         </section>
         <!-- END SERVICE-->
-        <section class="section p-t-100 p-b-65" id="objects">
+        <section class="section p-t-100 p-b-65"
+                 id="objects">
             <div class="container">
                 <div class="page-heading">
                     <h4 class="title-sub title-sub--c8 m-b-15">Объекты</h4>
@@ -503,10 +584,15 @@
                      data-rev-delay="500000"
                      data-rev-lazyload="1"
                      data-rev-carouselon="true">
-                    <ul>
+                    <ul id="custom-events">
                         <li class="rev-item rev-item-1"
                             data-transition="crossfade"
+                            data-src="images/objects/детский%20сад%20в%20поселке%20N-class.jpg"
+                            data-sub-html=".caption"
                             style="background-color:#000;">
+                            <div class="caption">
+                                ВОТ ТУТ ВЕРСТКА С ОПИСАНИЕМ
+                            </div>
                             <img class="rev-slidebg"
                                  src="images/objects/детский%20сад%20в%20поселке%20N-class.jpg"
                                  alt="Master Slider 01"/>
@@ -559,7 +645,13 @@
                         </li>
                         <li class="rev-item rev-item-1"
                             data-transition="crossfade"
+                            data-src="images/objects/дикси%20и%20аптека%20энколово.jpg"
+                            data-sub-html=".caption"
                             style="background-color:#000;">
+                            <div class="caption">
+                                мое тестовое описание
+                                <b>123</b>
+                            </div>
                             <img class="rev-slidebg"
                                  src="images/objects/дикси%20и%20аптека%20энколово.jpg"
                                  alt="Master Slider 01"/>
@@ -612,7 +704,13 @@
                         </li>
                         <li class="rev-item rev-item-1"
                             data-transition="crossfade"
+                            data-src="images/objects/дс%20кузьмоловский.jpg"
+                            data-sub-html=".caption"
                             style="background-color:#000;">
+                            <div class="caption">
+                                мое тестовое описание
+                                <b>123</b>
+                            </div>
                             <img class="rev-slidebg"
                                  src="images/objects/дс%20кузьмоловский.jpg"
                                  alt="Master Slider 01"/>
@@ -665,60 +763,13 @@
                         </li>
                         <li class="rev-item rev-item-1"
                             data-transition="crossfade"
+                            data-src="images/objects/кавголовское%20озеро.jpg"
+                            data-sub-html=".caption"
                             style="background-color:#000;">
-                            <img class="rev-slidebg"
-                                 src="images/objects/зубровник.jpg"
-                                 alt="Master Slider 01"/>
-                            <div class="tp-caption tp-shape tp-shapewrapper tp-resizeme rev-text-2"
-                                 data-frames="[{&quot;from&quot;:&quot;y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:0px;&quot;,&quot;speed&quot;:1000,&quot;to&quot;:&quot;o:1;&quot;,&quot;delay&quot;:200,&quot;ease&quot;:&quot;Power4.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1000,&quot;to&quot;:&quot;y:[100%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]"
-                                 data-x="[left]"
-                                 data-y="[bottom]"
-                                 data-hoffset="[0, 0, 0, 0, 0]"
-                                 data-voffset="[27, 27, 27, 27, 27]"
-                                 data-paddingleft="[0, 0, 0, 0, 15]"
-                                 data-paddingright="[0, 0, 0, 0, 15]"
-                                 data-width="370"
-                                 data-height="85"
-                                 data-basealign="slide"
-                                 style="background-color: rgb(255,255,255);"></div>
-                            <a class="tp-caption tp-resizeme rev-text-2"
-                               href="project-detail-1.html"
-                               target="_self"
-                               data-frames="[{&quot;from&quot;:&quot;y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:0px;&quot;,&quot;speed&quot;:1200,&quot;to&quot;:&quot;o:1;&quot;,&quot;delay&quot;:600,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1000,&quot;to&quot;:&quot;y:[100%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]"
-                               data-x="[left]"
-                               data-y="[bottom]"
-                               data-hoffset="[30, 30, 30, 30, 30]"
-                               data-voffset="[64, 64, 64, 64, 64]"
-                               data-paddingleft="[0, 0, 0, 0, 15]"
-                               data-paddingright="[0, 0, 0, 0, 15]"
-                               data-width="[325, 325, 325, 325, 325]"
-                               data-height="[&quot;auto&quot;]"
-                               data-lineheight="[32, 32, 32, 32, 33]"
-                               data-whitespace="normal"
-                               data-color="#222"
-                               data-fontweight="700"
-                               data-fontsize="[25, 25, 25, 25, 26]"
-                               data-textalign="[left, left, left, left, left]">Зубровник
-                            </a>
-                            <h4 class="tp-caption tp-resizeme rev-text-1"
-                                data-frames="[{&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:[100%];s:inherit;e:inherit;&quot;,&quot;speed&quot;:1200,&quot;to&quot;:&quot;o:1;&quot;,&quot;delay&quot;:600,&quot;ease&quot;:&quot;Power4.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1000,&quot;to&quot;:&quot;y:[100%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]"
-                                data-x="['left']"
-                                data-y="['bottom']"
-                                data-hoffset="[30, 30, 30, 30, 30]"
-                                data-voffset="[41, 41, 41, 41, 41]"
-                                data-paddingleft="[0, 0, 0, 0, 15]"
-                                data-paddingright="[0, 0, 0, 0, 15]"
-                                data-width="['auto']"
-                                data-height="[&quot;auto&quot;]"
-                                data-whitespace="[nowrap, nowrap, nowrap, nowrap, nowrap]"
-                                data-color="#888"
-                                data-fontweight="400"
-                                data-fontsize="[11, 11, 12, 12, 14]"
-                                data-textalign="[left, left, left, center, center]">9 мин езды</h4>
-                        </li>
-                        <li class="rev-item rev-item-1"
-                            data-transition="crossfade"
-                            style="background-color:#000;">
+                            <div class="caption">
+                                мое тестовое описание
+                                <b>123</b>
+                            </div>
                             <img class="rev-slidebg"
                                  src="images/objects/кавголовское%20озеро.jpg"
                                  alt="Master Slider 01"/>
@@ -771,7 +822,13 @@
                         </li>
                         <li class="rev-item rev-item-1"
                             data-transition="crossfade"
+                            data-src="images/objects/магнит%20кузьмоловский.jpg"
+                            data-sub-html=".caption"
                             style="background-color:#000;">
+                            <div class="caption">
+                                мое тестовое описание
+                                <b>123</b>
+                            </div>
                             <img class="rev-slidebg"
                                  src="images/objects/магнит%20кузьмоловский.jpg"
                                  alt="Master Slider 01"/>
@@ -824,7 +881,13 @@
                         </li>
                         <li class="rev-item rev-item-1"
                             data-transition="crossfade"
+                            data-src="images/objects/мега%20парнас.jpg"
+                            data-sub-html=".caption"
                             style="background-color:#000;">
+                            <div class="caption">
+                                мое тестовое описание
+                                <b>123</b>
+                            </div>
                             <img class="rev-slidebg"
                                  src="images/objects/мега%20парнас.jpg"
                                  alt="Master Slider 01"/>
@@ -877,7 +940,13 @@
                         </li>
                         <li class="rev-item rev-item-1"
                             data-transition="crossfade"
+                            data-src="images/objects/минимаркет%20в%20самом%20поселке.jpg"
+                            data-sub-html=".caption"
                             style="background-color:#000;">
+                            <div class="caption">
+                                мое тестовое описание
+                                <b>123</b>
+                            </div>
                             <img class="rev-slidebg"
                                  src="images/objects/минимаркет%20в%20самом%20поселке.jpg"
                                  alt="Master Slider 01"/>
@@ -930,7 +999,13 @@
                         </li>
                         <li class="rev-item rev-item-1"
                             data-transition="crossfade"
+                            data-src="images/objects/небо%20фитнесс.jpg"
+                            data-sub-html=".caption"
                             style="background-color:#000;">
+                            <div class="caption">
+                                мое тестовое описание
+                                <b>123</b>
+                            </div>
                             <img class="rev-slidebg"
                                  src="images/objects/небо%20фитнесс.jpg"
                                  alt="Master Slider 01"/>
@@ -983,7 +1058,13 @@
                         </li>
                         <li class="rev-item rev-item-1"
                             data-transition="crossfade"
+                            data-src="images/objects/охта%20spa%20resort.jpg"
+                            data-sub-html=".caption"
                             style="background-color:#000;">
+                            <div class="caption">
+                                мое тестовое описание
+                                <b>123</b>
+                            </div>
                             <img class="rev-slidebg"
                                  src="images/objects/охта%20spa%20resort.jpg"
                                  alt="Master Slider 01"/>
@@ -1036,7 +1117,13 @@
                         </li>
                         <li class="rev-item rev-item-1"
                             data-transition="crossfade"
+                            data-src="images/objects/охта%20парк.jpg"
+                            data-sub-html=".caption"
                             style="background-color:#000;">
+                            <div class="caption">
+                                мое тестовое описание
+                                <b>123</b>
+                            </div>
                             <img class="rev-slidebg"
                                  src="images/objects/охта%20парк.jpg"
                                  alt="Master Slider 01"/>
@@ -1089,7 +1176,13 @@
                         </li>
                         <li class="rev-item rev-item-1"
                             data-transition="crossfade"
+                            data-src="images/objects/охта%20парк%20бассейн.jpg"
+                            data-sub-html=".caption"
                             style="background-color:#000;">
+                            <div class="caption">
+                                мое тестовое описание
+                                <b>123</b>
+                            </div>
                             <img class="rev-slidebg"
                                  src="images/objects/охта%20парк%20бассейн.jpg"
                                  alt="Master Slider 01"/>
@@ -1142,7 +1235,13 @@
                         </li>
                         <li class="rev-item rev-item-1"
                             data-transition="crossfade"
+                            data-src="images/objects/охта%20парк%20каток.jpg"
+                            data-sub-html=".caption"
                             style="background-color:#000;">
+                            <div class="caption">
+                                мое тестовое описание
+                                <b>123</b>
+                            </div>
                             <img class="rev-slidebg"
                                  src="images/objects/охта%20парк%20каток.jpg"
                                  alt="Master Slider 01"/>
@@ -1195,7 +1294,13 @@
                         </li>
                         <li class="rev-item rev-item-1"
                             data-transition="crossfade"
+                            data-src="images/objects/поликлиника%20кузьмоловский.jpg"
+                            data-sub-html=".caption"
                             style="background-color:#000;">
+                            <div class="caption">
+                                мое тестовое описание
+                                <b>123</b>
+                            </div>
                             <img class="rev-slidebg"
                                  src="images/objects/поликлиника%20кузьмоловский.jpg"
                                  alt="Master Slider 01"/>
@@ -1248,7 +1353,13 @@
                         </li>
                         <li class="rev-item rev-item-1"
                             data-transition="crossfade"
+                            data-src="images/objects/пятерочка%20кузьмоловский.jpg"
+                            data-sub-html=".caption"
                             style="background-color:#000;">
+                            <div class="caption">
+                                мое тестовое описание
+                                <b>123</b>
+                            </div>
                             <img class="rev-slidebg"
                                  src="images/objects/пятерочка%20кузьмоловский.jpg"
                                  alt="Master Slider 01"/>
@@ -1301,7 +1412,13 @@
                         </li>
                         <li class="rev-item rev-item-1"
                             data-transition="crossfade"
+                            data-src="images/objects/северный%20склон.jpg"
+                            data-sub-html=".caption"
                             style="background-color:#000;">
+                            <div class="caption">
+                                мое тестовое описание
+                                <b>123</b>
+                            </div>
                             <img class="rev-slidebg"
                                  src="images/objects/северный%20склон.jpg"
                                  alt="Master Slider 01"/>
@@ -1354,7 +1471,13 @@
                         </li>
                         <li class="rev-item rev-item-1"
                             data-transition="crossfade"
+                            data-src="images/objects/фермерские%20продукты%20кузьмоловский.jpg"
+                            data-sub-html=".caption"
                             style="background-color:#000;">
+                            <div class="caption">
+                                мое тестовое описание
+                                <b>123</b>
+                            </div>
                             <img class="rev-slidebg"
                                  src="images/objects/фермерские%20продукты%20кузьмоловский.jpg"
                                  alt="Master Slider 01"/>
@@ -1407,7 +1530,13 @@
                         </li>
                         <li class="rev-item rev-item-1"
                             data-transition="crossfade"
+                            data-src="images/objects/хепоярви%20озеро.jpg"
+                            data-sub-html=".caption"
                             style="background-color:#000;">
+                            <div class="caption">
+                                мое тестовое описание
+                                <b>123</b>
+                            </div>
                             <img class="rev-slidebg"
                                  src="images/objects/хепоярви%20озеро.jpg"
                                  alt="Master Slider 01"/>
@@ -1460,7 +1589,13 @@
                         </li>
                         <li class="rev-item rev-item-1"
                             data-transition="crossfade"
+                            data-src="images/objects/школа%20Ламбери.jpg"
+                            data-sub-html=".caption"
                             style="background-color:#000;">
+                            <div class="caption">
+                                мое тестовое описание
+                                <b>123</b>
+                            </div>
                             <img class="rev-slidebg"
                                  src="images/objects/школа%20Ламбери.jpg"
                                  alt="Master Slider 01"/>
@@ -1513,7 +1648,13 @@
                         </li>
                         <li class="rev-item rev-item-1"
                             data-transition="crossfade"
+                            data-src="images/objects/школа%20пос%20кузтмоловский.jpg"
+                            data-sub-html=".caption"
                             style="background-color:#000;">
+                            <div class="caption">
+                                мое тестовое описание
+                                <b>123</b>
+                            </div>
                             <img class="rev-slidebg"
                                  src="images/objects/школа%20пос%20кузтмоловский.jpg"
                                  alt="Master Slider 01"/>
@@ -1566,7 +1707,13 @@
                         </li>
                         <li class="rev-item rev-item-1"
                             data-transition="crossfade"
+                            data-src="images/objects/школа%202%20пос%20кузьмоловский.jpg"
+                            data-sub-html=".caption"
                             style="background-color:#000;">
+                            <div class="caption">
+                                мое тестовое описание
+                                <b>123</b>
+                            </div>
                             <img class="rev-slidebg"
                                  src="images/objects/школа%202%20пос%20кузьмоловский.jpg"
                                  alt="Master Slider 01"/>
@@ -1622,8 +1769,96 @@
             </div>
         </section>
         <!-- END SLIDER-->
+        <section class="p-t-60 p-b-55 serts">
+            <div class="container">
+                <div class="section-title">
+                    <h5 class="title-sub">скачать</h5>
+                    <h2 class="title-1">Сертификаты</h2>
+                </div>
+                <div class="row gutter-lg">
+                    <div class="col-md-6 col-lg-3">
+                        <article class="media media-project media-project-1">
+                            <figure class="media__img">
+                                <img src="images/downloads/разр%20на%20строит.jpg"
+                                     alt="luxury villa"/>
+                            </figure>
+                            <div class="bg-overlay"></div>
+                            <span class="line"></span>
+                            <span class="line line--bottom"></span>
+                            <div class="media__body">
+                                <h3 class="title">
+                                    <a href="project-detail-1.html">Скачать</a>
+                                </h3>
+                            </div>
+                        </article>
+                        <div class="text-center w-100">
+                            <h3>Разрешение на строительство</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <article class="media media-project media-project-1">
+                            <figure class="media__img">
+                                <img src="images/downloads/кад%20выписка%20ЗУ.jpg"
+                                     alt="luxury villa"/>
+                            </figure>
+                            <div class="bg-overlay"></div>
+                            <span class="line"></span>
+                            <span class="line line--bottom"></span>
+                            <div class="media__body">
+                                <h3 class="title">
+                                    <a href="project-detail-1.html">Скачать</a>
+                                </h3>
+                            </div>
+                        </article>
+                        <div class="text-center w-100">
+                            <h3>Кадастровая выписка</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <article class="media media-project media-project-1">
+                            <figure class="media__img">
+                                <img src="images/downloads/топосъемка.jpg"
+                                     alt="luxury villa"/>
+                            </figure>
+                            <div class="bg-overlay"></div>
+                            <span class="line"></span>
+                            <span class="line line--bottom"></span>
+                            <div class="media__body">
+                                <h3 class="title">
+                                    <a href="project-detail-1.html">Скачать</a>
+                                </h3>
+                            </div>
+                        </article>
+                        <div class="text-center w-100">
+                            <h3>Топосъемка</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <article class="media media-project media-project-1">
+                            <figure class="media__img">
+                                <img src="images/downloads/егрн%20дом.jpg"
+                                     alt="luxury villa"/>
+                            </figure>
+                            <div class="bg-overlay"></div>
+                            <span class="line"></span>
+                            <span class="line line--bottom"></span>
+                            <div class="media__body">
+                                <h3 class="title">
+                                    <a href="project-detail-1.html">Скачать</a>
+                                </h3>
+                            </div>
+                        </article>
+                        <div class="text-center w-100">
+                            <h3>ЕГРН</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
         <!-- PAGE HEADING-->
-        <section class="section p-t-100 p-b-65" id="layouts">
+        <section class="section p-t-100 p-b-65"
+                 id="layouts">
             <div class="container">
                 <div class="page-heading">
                     <h4 class="title-sub title-sub--c8 m-b-15">скачать</h4>
@@ -1638,7 +1873,9 @@
                 <div class="container-fluid">
                     <div class="row gutter-lg">
                         <div class="col-md-6 col-lg-3">
-                            <article class="media media-project media-project-1">
+                            <article data-fancybox="1"
+                                     href="images/Интерьеры/1-1.jpg"
+                                     class="media media-project media-project-1">
                                 <figure class="media__img">
                                     <img src="images/Интерьеры/1-1.jpg"
                                          alt="luxury villa"/>
@@ -1654,7 +1891,9 @@
                             </article>
                         </div>
                         <div class="col-md-6 col-lg-3">
-                            <article class="media media-project media-project-1">
+                            <article data-fancybox="1"
+                                     href="images/Интерьеры/2-2.jpg"
+                                     class="media media-project media-project-1">
                                 <figure class="media__img">
                                     <img src="images/Интерьеры/2-2.jpg"
                                          alt="wooden villa"/>
@@ -1670,7 +1909,9 @@
                             </article>
                         </div>
                         <div class="col-md-6 col-lg-3">
-                            <article class="media media-project media-project-1">
+                            <article data-fancybox="1"
+                                     href="images/Интерьеры/1.jpg"
+                                     class="media media-project media-project-1">
                                 <figure class="media__img">
                                     <img src="images/Интерьеры/1.jpg"
                                          alt="Skyline"/>
@@ -1686,7 +1927,9 @@
                             </article>
                         </div>
                         <div class="col-md-6 col-lg-3">
-                            <article class="media media-project media-project-1">
+                            <article data-fancybox="1"
+                                     href="images/Интерьеры/2.jpg"
+                                     class="media media-project media-project-1">
                                 <figure class="media__img">
                                     <img src="images/Интерьеры/2.jpg"
                                          alt="Frozen house"/>
@@ -1701,80 +1944,13 @@
                                 </div>
                             </article>
                         </div>
-                        <div class="col-md-6 col-lg-3">
-                            <article class="media media-project media-project-1">
-                                <figure class="media__img">
-                                    <img src="images/Интерьеры/181232413.jpg"
-                                         alt="luxury villa"/>
-                                </figure>
-                                <div class="bg-overlay"></div>
-                                <span class="line"></span>
-                                <span class="line line--bottom"></span>
-                                <div class="media__body">
-                                    <h3 class="title">
-                                        <a href="project-detail-1.html">luxury villa</a>
-                                    </h3>
-                                    <div class="address">Perth, Australia</div>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-md-6 col-lg-3">
-                            <article class="media media-project media-project-1">
-                                <figure class="media__img">
-                                    <img src="images/Интерьеры/311975641.jpg"
-                                         alt="wooden villa"/>
-                                </figure>
-                                <div class="bg-overlay"></div>
-                                <span class="line"></span>
-                                <span class="line line--bottom"></span>
-                                <div class="media__body">
-                                    <h3 class="title">
-                                        <a href="project-detail-1.html">wooden villa</a>
-                                    </h3>
-                                    <div class="address">New York, USA</div>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-md-6 col-lg-3">
-                            <article class="media media-project media-project-1">
-                                <figure class="media__img">
-                                    <img src="images/Интерьеры/954057442.jpg"
-                                         alt="wooden villa"/>
-                                </figure>
-                                <div class="bg-overlay"></div>
-                                <span class="line"></span>
-                                <span class="line line--bottom"></span>
-                                <div class="media__body">
-                                    <h3 class="title">
-                                        <a href="project-detail-1.html">wooden villa</a>
-                                    </h3>
-                                    <div class="address">New York, USA</div>
-                                </div>
-                            </article>
-                        </div>
-                        <div class="col-md-6 col-lg-3">
-                            <article class="media media-project media-project-1">
-                                <figure class="media__img">
-                                    <img src="images/Интерьеры/5673533916.jpg"
-                                         alt="Skyline"/>
-                                </figure>
-                                <div class="bg-overlay"></div>
-                                <span class="line"></span>
-                                <span class="line line--bottom"></span>
-                                <div class="media__body">
-                                    <h3 class="title">
-                                        <a href="project-detail-1.html">Skyline</a>
-                                    </h3>
-                                    <div class="address">Michigan, USA</div>
-                                </div>
-                            </article>
-                        </div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- PAGE HEADING-->
-        <section class="section p-b-65" id="contacts">
+        <section class="section p-b-65"
+                 id="contacts">
             <div class="container">
                 <div class="page-heading">
                     <h4 class="title-sub title-sub--c8 m-b-15">Связаться с нами</h4>
@@ -1787,23 +1963,43 @@
         <section class="section p-b-80">
             <div class="container">
                 <div class="row no-gutters m-b-60">
-                    <div class="col-lg-4">
+                    <div class="col-lg-2">
+                        <article class="media-team">
+                            <figure class="media__img-wrap">
+                                <img class="media__img img--rounded"
+                                     src="images/фото%20для%20контактов.jpg"
+                                     alt="Sonja Porter">
+                            </figure>
+                            <div class="media__body">
+                                <h4 class="title--sm">
+                                    <a href="#">Уткина Анна</a>
+                                </h4>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-lg-3 text-center">
                         <div class="contact-info">
                             <div class="contact-info__item">
                                 <h5 class="title--sm2">Телефон:</h5>
-                                <a href="tel:+78122100909" class="value">+7 (812) 210-09-09</a>
+                                <a href="tel:+78122100909"
+                                   class="value">+7 (812) 210-09-09
+                                </a>
                             </div>
                             <div class="contact-info__item">
                                 <h5 class="title--sm2">Телефон:</h5>
-                                <a href="tel:+79217638414" class="value">+7 (921) 763-84-14</a>
+                                <a href="tel:+79217638414"
+                                   class="value">+7 (921) 763-84-14
+                                </a>
                             </div>
                             <div class="contact-info__item">
                                 <h5 class="title--sm2">Email:</h5>
-                                <a href="mailto:sale@ohtinskypark.ru" class="value">sale@ohtinskypark.ru</a>
+                                <a href="mailto:sale@ohtinskypark.ru"
+                                   class="value">sale@ohtinskypark.ru
+                                </a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-8">
+                    <div class="col-lg-7">
                         <form class="form-contact js-contact-form"
                               method="POST"
                               action="#">
@@ -1841,7 +2037,7 @@
                         </form>
                     </div>
                 </div>
-                <div class="map-wrapper js-google-map" >
+                <div class="map-wrapper js-google-map">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1873.895461806239!2d30.463490740703616!3d60.12082845932252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4697cbf243925597%3A0x3b1f67087d988103!2z0YPQuy4g0KDRg9C80Y_QvdGG0LXQstCwLCDQntGF0YLQuNC90YHQutC40Lkg0J_QsNGA0LosINCb0LXQvdC40L3Qs9GA0LDQtNGB0LrQsNGPINC-0LHQuy4sIDE4ODY2NA!5e0!3m2!1sru!2sru!4v1621234324408!5m2!1sru!2sru"
                             width="100%"
                             height="450"
@@ -1859,85 +2055,10 @@
         <div class="bg-overlay bg-overlay--p85"></div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <div class="footer-col">
-                        <div class="widget m-b-25">
-                            <a href="#">
-                                <img src="images/icon/logo-white.png"
-                                     alt="Tatee"/>
-                            </a>
-                        </div>
-                        <div class="widget widget-address">
-                            <ul>
-                                <li>Address : 991 White St . Dawsonville, GA 30534 , New York</li>
-                                <li>Phone number : + (898) 784-7217</li>
-                                <li>Email : Tatee.architecture@gmail.com</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-6">
-                    <div class="footer-col p-l-70 p-md-l-0">
-                        <div class="widget widget_pages">
-                            <h4 class="widget-title">Link</h4>
-                            <ul>
-                                <li>
-                                    <a href="#">About us</a>
-                                </li>
-                                <li>
-                                    <a href="#">Services</a>
-                                </li>
-                                <li>
-                                    <a href="#">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="footer-col p-l-70 p-md-l-0">
-                        <h4 class="widget-title">Social</h4>
-                        <div class="widget widget_socials">
-                            <ul class="list-social list-social-2">
-                                <li class="list-social__item">
-                                    <a class="ic-fb"
-                                       href="#">
-                                        <i class="zmdi zmdi-facebook"></i>
-                                    </a>
-                                </li>
-                                <li class="list-social__item">
-                                    <a class="ic-insta"
-                                       href="#">
-                                        <i class="zmdi zmdi-instagram"></i>
-                                    </a>
-                                </li>
-                                <li class="list-social__item">
-                                    <a class="ic-twi"
-                                       href="#">
-                                        <i class="zmdi zmdi-twitter"></i>
-                                    </a>
-                                </li>
-                                <li class="list-social__item">
-                                    <a class="ic-pinterest"
-                                       href="#">
-                                        <i class="zmdi zmdi-pinterest"></i>
-                                    </a>
-                                </li>
-                                <li class="list-social__item">
-                                    <a class="ic-google"
-                                       href="#">
-                                        <i class="zmdi zmdi-google"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-12">
                     <div class="footer-col">
                         <div class="widget widget_text">
-                            <h4 class="widget-title">copyright</h4>
-                            <p>© 2018 TATEE . Designed by Authemes</p>
+                            <p>© 2021. Все права защищены.</p>
                         </div>
                     </div>
                 </div>
@@ -1945,6 +2066,52 @@
         </div>
     </footer>
     <!-- END FOOTER-->
+    <div class="modal fade"
+         id="exampleModalLong"
+         tabindex="-1"
+         role="dialog"
+         aria-labelledby="exampleModalLongTitle"
+         aria-hidden="true">
+        <div class="modal-dialog"
+             role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"
+                        id="exampleModalLongTitle">Заказать звонок</h5>
+                    <button type="button"
+                            class="close"
+                            data-dismiss="modal"
+                            aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form class="form-contact js-contact-form"
+                          method="POST"
+                          action="#">
+                        <div class="form-row no-gutters">
+                            <input class="au-input"
+                                   type="text"
+                                   name="name"
+                                   placeholder="Имя"
+                                   required="required">
+                            <input class="au-input"
+                                   type="text"
+                                   name="phone"
+                                   placeholder="Телефон"
+                                   required="required">
+                            <div class="text-right w-100">
+                                <button class="au-btn au-btn--solid"
+                                        type="submit">Отправить
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+    </div>
 </div>
 <!-- Jquery JS-->
 <script src="vendor/jquery/jquery.min.js"></script>
@@ -1988,12 +2155,15 @@
         src="vendor/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
 <script type="text/javascript"
         src="vendor/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEmXgQ65zpsjsEAfNPP9mBAz-5zjnIZBw"></script>
-<script src="js/theme-map.js"></script>
 <!-- Config Revolution Slider-->
 <script type="text/javascript"
         src="js/config-revolution.min.js"></script>
 <!-- Main JS-->
+<script type="text/javascript"
+        src="js/jquery.fancybox.min.js"></script>
+<script type="text/javascript"
+        src="js/lightgallery.js"></script>
+<!-- lightgallery plugins -->
 <script src="js/global.js"></script>
 </body>
 </html>

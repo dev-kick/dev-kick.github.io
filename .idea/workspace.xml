@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6baf2b0-681b-43eb-a52e-21efbb32065d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/jquery.fancybox.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/downloads/егрн дом.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/downloads/кад выписка ЗУ.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/downloads/разр на строит.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/downloads/топосъемка.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/team-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/фото для контактов.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/jquery.fancybox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/aos.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/aos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/global.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/global.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/revolution/css/settings.css" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/revolution/css/settings.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,9 +38,9 @@
       <recent name="$PROJECT_DIR$/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/images/downloads" />
       <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$/images/downloads" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -60,7 +53,8 @@
       <option name="presentableId" value="Default" />
       <updated>1621410594044</updated>
       <workItem from="1621410596264" duration="3436000" />
-      <workItem from="1621496064078" duration="7585000" />
+      <workItem from="1621496064078" duration="7749000" />
+      <workItem from="1621841954716" duration="1047000" />
     </task>
     <servers />
   </component>
